@@ -1,0 +1,67 @@
+<!-- FILE: templates/history.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Interview - History</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
+</head>
+<body class="page-bg">
+    <main class="shell">
+        <section class="card hero-card">
+            <h1 class="title-xl">Interview History</h1>
+            <p class="text-muted">Previous interview attempts stored in database.</p>
+        </section>
+
+        {% if attempts %}
+            <section class="stack">
+                {% for item in attempts %}
+                    <article class="card history-card">
+                        <div class="history-row">
+                            <span class="metric-label">Domain</span>
+                            <span class="detail-value">{{ item.domain }}</span>
+                        </div>
+                        <div class="history-row">
+                            <span class="metric-label">Questions</span>
+                            <span class="detail-value">{{ item.question_count }}</span>
+                        </div>
+                        <div class="history-row">
+                            <span class="metric-label">Timer / Question</span>
+                            <span class="detail-value">{{ item.timer_seconds or "N/A" }} sec</span>
+                        </div>
+                        <div class="history-row">
+                            <span class="metric-label">Total Score</span>
+                            <span class="detail-value">{{ item.total_score }}</span>
+                        </div>
+                        <div class="history-row">
+                            <span class="metric-label">Average Score</span>
+                            <span class="detail-value">{{ item.average_score }}</span>
+                        </div>
+                        <div class="history-row">
+                            <span class="metric-label">Attempted At</span>
+                            <span class="detail-value">{{ item.attempted_at }}</span>
+                        </div>
+                        <div class="history-actions">
+                            <form method="POST" action="{{ url_for('main.delete_history', session_id=item.session_id) }}" onsubmit="return confirm('Delete this history entry?');">
+                                <button type="submit" class="btn-danger">Delete</button>
+                            </form>
+                        </div>
+                    </article>
+                {% endfor %}
+            </section>
+        {% else %}
+            <section class="card">
+                <p class="text-muted">No history found yet. Start an interview first.</p>
+            </section>
+        {% endif %}
+
+        <section class="center">
+            <a href="{{ url_for('main.home') }}" class="btn-primary btn-link">Back To Home</a>
+        </section>
+    </main>
+</body>
+</html>

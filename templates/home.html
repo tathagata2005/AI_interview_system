@@ -1,0 +1,63 @@
+<!-- FILE: templates/home.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Interview - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
+</head>
+<body class="page-bg">
+    <main class="shell">
+        <section class="card hero-card">
+            <h1 class="title-xl">AI Assisted Interview Platform</h1>
+            <p class="text-muted">Practice interview rounds with AI-generated questions and real-time scoring.</p>
+            <p><a href="{{ url_for('main.history') }}" class="history-link">View Interview History</a></p>
+        </section>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+          {% if messages %}
+            <section class="card">
+              {% for category, message in messages %}
+                <p class="alert">{{ category|capitalize }}: {{ message }}</p>
+              {% endfor %}
+            </section>
+          {% endif %}
+        {% endwith %}
+
+        <section class="card">
+            <form method="POST" action="{{ url_for('main.start_interview') }}" class="stack">
+                <div class="field">
+                    <label for="domain">Interview Domain</label>
+                    <select name="domain" id="domain" required>
+                        <option value="">Select Domain</option>
+                        <option value="HR">HR</option>
+                        <option value="Technical">Technical</option>
+                        <option value="Behavioral">Behavioral</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="question_count">Number of Questions</label>
+                    <select name="question_count" id="question_count" required>
+                        <option value="1">1</option>
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="15">15</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="timer_seconds">Time Per Question</label>
+                    <select name="timer_seconds" id="timer_seconds" required>
+                        <option value="90">90 seconds</option>
+                        <option value="120">120 seconds</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-primary">Start Interview</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

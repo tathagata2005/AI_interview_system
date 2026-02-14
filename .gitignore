@@ -1,0 +1,18 @@
+# FILE: .gitignore
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+instance/
+.env
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+
+note.txt

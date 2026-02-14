@@ -1,0 +1,57 @@
+<!-- FILE: templates/interview.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Interview - Question</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
+</head>
+<body class="page-bg">
+    <main class="shell">
+        <section class="card hero-card">
+            <h1 class="title-lg">{{ domain }} Interview</h1>
+            <p class="text-muted">Question {{ current_index }} of {{ total_questions }}</p>
+            <p class="timer-line">Time Left: <span id="timer-display">{{ timer_seconds }}</span>s</p>
+            <p class="question-text">{{ question }}</p>
+        </section>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+          {% if messages %}
+            <section class="card">
+              {% for category, message in messages %}
+                <p class="alert">{{ category|capitalize }}: {{ message }}</p>
+              {% endfor %}
+            </section>
+          {% endif %}
+        {% endwith %}
+
+        <section class="card">
+            <form method="POST" action="{{ url_for('main.submit_answer') }}" enctype="multipart/form-data" class="stack">
+                <input type="hidden" name="auto_timeout" id="auto-timeout" value="0" />
+                <div class="field">
+                    <label for="answer">Your Answer</label>
+                    <textarea id="answer" name="answer" rows="8"></textarea>
+                </div>
+                <div class="voice-controls">
+                    <button id="mic-toggle" type="button" class="mic-toggle" aria-label="Start recording" title="Start recording">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 15a3 3 0 0 0 3-3V7a3 3 0 1 0-6 0v5a3 3 0 0 0 3 3z"></path>
+                            <path d="M19 11a7 7 0 0 1-14 0"></path>
+                            <path d="M12 18v4"></path>
+                            <path d="M9 22h6"></path>
+                        </svg>
+                    </button>
+                    <span id="voice-status" class="status-pill">Idle</span>
+                </div>
+                <button type="submit" class="btn-primary">Submit Answer</button>
+            </form>
+        </section>
+    </main>
+    <script src="{{ url_for('static', filename='js/interview_voice.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/interview_timer.js') }}"></script>
+</body>
+</html>

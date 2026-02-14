@@ -1,0 +1,107 @@
+<!-- FILE: templates/result.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Interview - Result</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
+</head>
+<body class="page-bg">
+    <main class="shell">
+        <section class="card hero-card">
+            <h1 class="title-xl">Interview Result</h1>
+            <p class="text-muted">{{ summary.domain }} domain | {{ summary.total_questions }} questions</p>
+            <p class="complete-note">Evaluation Complete</p>
+        </section>
+
+        {% set score = summary.average_score %}
+        {% if score >= 80 %}
+          {% set score_tone = "excellent" %}
+        {% elif score >= 65 %}
+          {% set score_tone = "good" %}
+        {% elif score >= 50 %}
+          {% set score_tone = "average" %}
+        {% else %}
+          {% set score_tone = "needs-improvement" %}
+        {% endif %}
+
+        <section class="card summary-grid">
+            <div class="score-card {{ score_tone }}">
+                <p class="text-muted">Average Score</p>
+                <p class="score-value">{{ summary.average_score }}</p>
+                <progress class="score-progress {{ score_tone }}" max="100" value="{{ summary.average_score }}"></progress>
+            </div>
+            <div class="summary-meta">
+                <p><span class="metric-label">Total Score</span> {{ summary.total_score }}</p>
+                <p><span class="metric-label">Total Questions</span> {{ summary.total_questions }}</p>
+                <p>
+                  <span class="metric-label">Performance</span>
+                  <span class="badge {{ summary.performance_tone }}">{{ summary.performance_label }}</span>
+                </p>
+                <p><span class="metric-label">Overall Feedback</span> {{ summary.overall_feedback }}</p>
+            </div>
+        </section>
+
+        <section class="stack">
+            {% for row in summary.rows %}
+              {% set qscore = row.score %}
+              {% if qscore >= 80 %}
+                {% set q_tone = "excellent" %}
+              {% elif qscore >= 65 %}
+                {% set q_tone = "good" %}
+              {% elif qscore >= 50 %}
+                {% set q_tone = "average" %}
+              {% else %}
+                {% set q_tone = "needs-improvement" %}
+              {% endif %}
+              <article class="card question-card">
+                  <div class="question-head">
+                    <h3>Question {{ row.question_no }}</h3>
+                    <div class="score-chip">
+                        <span class="badge {{ q_tone }}">Score: {{ row.score }}</span>
+                        <progress class="mini-progress {{ q_tone }}" max="100" value="{{ row.score }}"></progress>
+                    </div>
+                  </div>
+                  <div class="detail-row">
+                      <span class="detail-label">Question</span>
+                      <span class="detail-value">{{ row.question }}</span>
+                  </div>
+                  <div class="detail-row">
+                      <span class="detail-label">Ideal Answer</span>
+                      <span class="detail-value">
+                          <details class="ideal-toggle">
+                              <summary>Show Ideal Answer</summary>
+                              <div class="ideal-content">{{ row.ideal_answer }}</div>
+                          </details>
+                      </span>
+                  </div>
+                  <div class="detail-row">
+                      <span class="detail-label">Your Answer</span>
+                      <span class="detail-value">{{ row.answer_text }}</span>
+                  </div>
+                  <div class="detail-row">
+                      <span class="detail-label"><span class="icon icon-feedback">i</span> Feedback</span>
+                      <span class="detail-value">{{ row.feedback }}</span>
+                  </div>
+                  <div class="detail-row">
+                      <span class="detail-label"><span class="icon icon-strength">+</span> Strengths</span>
+                      <span class="detail-value">{{ row.strengths }}</span>
+                  </div>
+                  <div class="detail-row">
+                      <span class="detail-label"><span class="icon icon-weakness">-</span> Weaknesses</span>
+                      <span class="detail-value">{{ row.weaknesses }}</span>
+                  </div>
+              </article>
+            {% endfor %}
+        </section>
+
+        <section class="center">
+            <a href="{{ url_for('main.home') }}" class="btn-primary btn-link">Start New Interview</a>
+        </section>
+    </main>
+</body>
+</html>

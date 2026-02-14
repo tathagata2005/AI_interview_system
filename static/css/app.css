@@ -1,0 +1,495 @@
+/* FILE: static/css/app.css */
+:root {
+    --bg-1: #f4f8f7;
+    --bg-2: #e6efea;
+    --card: #ffffff;
+    --text: #1f2a2a;
+    --muted: #5f7070;
+    --border: #d7e3df;
+    --primary: #17624f;
+    --primary-hover: #124e3f;
+    --good: #f08b2d;
+    --excellent: #1f8f56;
+    --bad: #c24a3d;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+    color: var(--text);
+}
+
+.page-bg {
+    background: radial-gradient(circle at 0% 0%, var(--bg-2) 0, var(--bg-1) 45%, #f9fcfb 100%);
+    min-height: 100vh;
+}
+
+.shell {
+    width: min(980px, 92vw);
+    margin: 2rem auto 3rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1rem 1.1rem;
+    box-shadow: 0 12px 30px rgba(17, 52, 42, 0.08);
+}
+
+.hero-card {
+    padding: 1.4rem 1.2rem;
+}
+
+.title-xl {
+    margin: 0;
+    font-size: clamp(1.6rem, 2.4vw, 2.1rem);
+}
+
+.title-lg {
+    margin: 0;
+    font-size: clamp(1.4rem, 2vw, 1.8rem);
+}
+
+.text-muted {
+    margin: 0.4rem 0 0;
+    color: var(--muted);
+}
+
+.question-text {
+    margin-top: 0.8rem;
+    font-size: 1.05rem;
+    line-height: 1.5;
+}
+
+.timer-line {
+    margin: 0.35rem 0 0;
+    font-weight: 700;
+}
+
+.timer-danger {
+    color: #b84343;
+}
+
+.history-link {
+    color: #195d94;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.history-link:hover {
+    text-decoration: underline;
+}
+
+.stack {
+    display: grid;
+    gap: 1rem;
+}
+
+.field {
+    display: grid;
+    gap: 0.4rem;
+}
+
+label {
+    font-weight: 700;
+}
+
+select,
+textarea {
+    width: 100%;
+    border: 1px solid #c7d7d2;
+    border-radius: 12px;
+    padding: 0.7rem 0.8rem;
+    font-size: 0.98rem;
+    font-family: inherit;
+    background: #fcfefd;
+}
+
+textarea {
+    resize: vertical;
+    line-height: 1.45;
+}
+
+.btn-primary,
+.btn-secondary {
+    border: none;
+    border-radius: 12px;
+    padding: 0.7rem 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn-danger {
+    border: none;
+    border-radius: 10px;
+    padding: 0.55rem 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: inherit;
+    background: #b84343;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background: #9e3636;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: var(--primary-hover);
+}
+
+.btn-secondary {
+    background: #e9f0ed;
+    color: var(--text);
+}
+
+.voice-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    align-items: center;
+}
+
+.mic-toggle {
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: #161616;
+    color: #ffffff;
+    transition: background-color 0.18s ease;
+}
+
+.mic-toggle svg {
+    width: 22px;
+    height: 22px;
+    stroke: currentColor;
+    stroke-width: 2;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.mic-toggle.recording {
+    background: #c12f2f;
+}
+
+.status-pill {
+    background: #edf4f1;
+    border-radius: 999px;
+    padding: 0.35rem 0.7rem;
+    font-size: 0.85rem;
+    color: var(--muted);
+}
+
+.alert {
+    margin: 0.25rem 0;
+    color: #8f372e;
+}
+
+.summary-grid {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 1rem;
+}
+
+.score-card {
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1rem;
+}
+
+.score-card.excellent {
+    background: #e9f8ef;
+}
+
+.score-card.good {
+    background: #fff4e8;
+}
+
+.score-card.average {
+    background: #fff8eb;
+}
+
+.score-card.needs-improvement {
+    background: #fdeeee;
+}
+
+.score-value {
+    font-size: 2.1rem;
+    margin: 0.2rem 0 0.6rem;
+    font-weight: 800;
+}
+
+.progress-track {
+    width: 100%;
+    height: 10px;
+    background: #dfe8e4;
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    border-radius: 999px;
+}
+
+.progress-fill.excellent {
+    background: var(--excellent);
+}
+
+.progress-fill.good {
+    background: var(--good);
+}
+
+.progress-fill.needs-improvement {
+    background: var(--bad);
+}
+
+.score-progress {
+    width: 100%;
+    height: 10px;
+    border: none;
+    border-radius: 999px;
+    overflow: hidden;
+    background: #dfe8e4;
+}
+
+.score-progress::-webkit-progress-bar {
+    background: #dfe8e4;
+    border-radius: 999px;
+}
+
+.score-progress.excellent {
+    accent-color: var(--excellent);
+}
+
+.score-progress.good {
+    accent-color: var(--good);
+}
+
+.score-progress.average {
+    accent-color: var(--good);
+}
+
+.score-progress.needs-improvement {
+    accent-color: var(--bad);
+}
+
+.summary-meta {
+    display: grid;
+    gap: 0.5rem;
+    align-content: start;
+}
+
+.summary-meta p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.metric-label {
+    display: inline-block;
+    min-width: 140px;
+    color: var(--muted);
+    font-weight: 600;
+}
+
+.badge {
+    display: inline-block;
+    border-radius: 999px;
+    padding: 0.28rem 0.65rem;
+    color: #fff;
+    font-size: 0.84rem;
+    font-weight: 700;
+}
+
+.badge.excellent {
+    background: var(--excellent);
+}
+
+.badge.good,
+.badge.average {
+    background: var(--good);
+}
+
+.badge.needs-improvement {
+    background: var(--bad);
+}
+
+.question-card h3 {
+    margin: 0;
+}
+
+.question-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.8rem;
+    align-items: center;
+    margin-bottom: 0.45rem;
+}
+
+.score-chip {
+    display: grid;
+    gap: 0.35rem;
+    min-width: 170px;
+    justify-items: end;
+}
+
+.mini-progress {
+    width: 170px;
+    height: 8px;
+    border: none;
+    border-radius: 999px;
+    overflow: hidden;
+    background: #dfe8e4;
+}
+
+.mini-progress.excellent {
+    accent-color: var(--excellent);
+}
+
+.mini-progress.good,
+.mini-progress.average {
+    accent-color: var(--good);
+}
+
+.mini-progress.needs-improvement {
+    accent-color: var(--bad);
+}
+
+.detail-row {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 0.75rem;
+    align-items: start;
+    padding: 0.45rem 0;
+    border-top: 1px solid #ecf2ef;
+}
+
+.detail-label {
+    color: var(--muted);
+    font-weight: 700;
+}
+
+.detail-value {
+    color: #0e1716;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.complete-note {
+    margin: 0.55rem 0 0;
+    font-weight: 700;
+    color: #1f8f56;
+}
+
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 999px;
+    color: #fff;
+    font-size: 0.72rem;
+    margin-right: 0.35rem;
+    font-weight: 800;
+}
+
+.icon-feedback {
+    background: #2d6ec7;
+}
+
+.icon-strength {
+    background: #2b9658;
+}
+
+.icon-weakness {
+    background: #b84343;
+}
+
+.ideal-toggle summary {
+    cursor: pointer;
+    color: #1d5c96;
+    font-weight: 700;
+    list-style: none;
+}
+
+.ideal-toggle summary::-webkit-details-marker {
+    display: none;
+}
+
+.ideal-content {
+    margin-top: 0.45rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn-link {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.history-card {
+    display: grid;
+    gap: 0.45rem;
+}
+
+.history-row {
+    display: grid;
+    grid-template-columns: 170px 1fr;
+    gap: 0.75rem;
+    align-items: center;
+    border-top: 1px solid #ecf2ef;
+    padding-top: 0.5rem;
+}
+
+.history-actions {
+    margin-top: 0.35rem;
+    padding-top: 0.55rem;
+    border-top: 1px solid #ecf2ef;
+}
+
+@media (max-width: 820px) {
+    .summary-grid {
+        grid-template-columns: 1fr;
+    }
+    .metric-label {
+        min-width: 0;
+        margin-right: 0.35rem;
+    }
+    .detail-row {
+        grid-template-columns: 1fr;
+        gap: 0.3rem;
+    }
+    .score-chip {
+        min-width: 0;
+        justify-items: start;
+    }
+    .mini-progress {
+        width: 100%;
+    }
+    .history-row {
+        grid-template-columns: 1fr;
+        gap: 0.2rem;
+    }
+}

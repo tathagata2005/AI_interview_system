@@ -1,0 +1,9 @@
+{
+  "input_mode": "answer_only",
+  "estimator": "LogisticRegression",
+  "labels": [
+    0,
+    1,
+    2
+  ]
+}

@@ -1,0 +1,900 @@
+domain,question,answer,label
+HR,"Tell me about yourself.","I am a motivated B.Tech CSE student with strong problem solving skills and a passion for building practical software solutions.",2
+HR,"Tell me about yourself.","I am a CSE student currently in my third year and interested in technology.",1
+HR,"Tell me about yourself.","Myself Rahul from Kolkata.",0
+HR,"What are your strengths?","I have strong analytical skills and the ability to work effectively in team environments.",2
+HR,"What are your strengths?","I am hardworking and sincere.",1
+HR,"What are your strengths?","I do not know maybe nothing special.",0
+HR,"Why should we hire you?","I bring technical expertise adaptability and a continuous learning mindset that aligns with company goals.",2
+HR,"Why should we hire you?","Because I need a job and I will try my best.",1
+HR,"Why should we hire you?","No idea.",0
+HR,"What are your weaknesses?","I sometimes overanalyze problems but I am improving by setting strict time limits.",2
+HR,"What are your weaknesses?","I get nervous sometimes.",1
+HR,"What are your weaknesses?","I have no weaknesses.",0
+HR,"Where do you see yourself in five years?","I see myself growing into a technical lead role contributing to impactful projects.",2
+HR,"Where do you see yourself in five years?","Working in a good company.",1
+HR,"Where do you see yourself in five years?","I do not know.",0
+HR,"Describe a challenge you faced.","I led a team project where we missed deadlines initially but reorganized tasks and delivered successfully.",2
+HR,"Describe a challenge you faced.","I had difficulty in one subject but studied harder.",1
+HR,"Describe a challenge you faced.","No challenge.",0
+HR,"Why do you want this job?","The company innovation culture and growth opportunities strongly match my career goals.",2
+HR,"Why do you want this job?","It is a good company.",1
+HR,"Why do you want this job?","Just trying.",0
+HR,"How do you handle stress?","I prioritize tasks and break large problems into manageable steps to maintain productivity.",2
+HR,"How do you handle stress?","I try to stay calm.",1
+HR,"How do you handle stress?","I panic.",0
+HR,"Are you a team player?","Yes I actively collaborate and communicate to achieve team objectives efficiently.",2
+HR,"Are you a team player?","Yes I can work with others.",1
+HR,"Are you a team player?","I prefer working alone always.",0
+HR,"What motivates you?","Continuous learning and solving challenging problems motivate me.",2
+HR,"What motivates you?","Money and career growth.",1
+HR,"What motivates you?","Nothing.",0
+HR,"How do you handle failure?","I analyze mistakes learn from them and apply improvements in future tasks.",2
+HR,"How do you handle failure?","I feel bad but try again.",1
+HR,"How do you handle failure?","I quit.",0
+HR,"What makes you different?","My combination of technical depth and communication skills sets me apart.",2
+HR,"What makes you different?","I am hardworking.",1
+HR,"What makes you different?","Nothing special.",0
+HR,"Describe yourself in one word.","Adaptable and driven.",2
+HR,"Describe yourself in one word.","Good.",1
+HR,"Describe yourself in one word.","Normal.",0
+Technical,"What is OOPS?","OOPS is a programming paradigm based on encapsulation inheritance polymorphism and abstraction.",2
+Technical,"What is OOPS?","It is object oriented programming.",1
+Technical,"What is OOPS?","It is coding.",0
+Technical,"Explain polymorphism.","Polymorphism allows methods to behave differently based on the object calling them.",2
+Technical,"Explain polymorphism.","It means many forms.",1
+Technical,"Explain polymorphism.","Not sure.",0
+Technical,"What is a database index?","An index improves query performance by allowing faster data retrieval.",2
+Technical,"What is a database index?","It helps searching.",1
+Technical,"What is a database index?","No idea.",0
+Technical,"Explain REST API.","REST is an architectural style using HTTP methods like GET and POST for communication.",2
+Technical,"Explain REST API.","It is used for APIs.",1
+Technical,"Explain REST API.","Something in backend.",0
+Technical,"What is normalization?","Normalization organizes database tables to reduce redundancy.",2
+Technical,"What is normalization?","It removes duplicates.",1
+Technical,"What is normalization?","Not sure.",0
+Technical,"What is multithreading?","Multithreading allows concurrent execution of multiple threads in a program.",2
+Technical,"What is multithreading?","Running many tasks.",1
+Technical,"What is multithreading?","I do not know.",0
+Technical,"What is machine learning?","Machine learning enables systems to learn patterns from data and make predictions.",2
+Technical,"What is machine learning?","It is AI training.",1
+Technical,"What is machine learning?","Robots.",0
+Technical,"Explain TCP vs UDP.","TCP is connection oriented and reliable while UDP is faster but connectionless.",2
+Technical,"Explain TCP vs UDP.","TCP is safe and UDP fast.",1
+Technical,"Explain TCP vs UDP.","Both are internet.",0
+Technical,"What is Git?","Git is a distributed version control system used to track code changes.",2
+Technical,"What is Git?","It tracks code.",1
+Technical,"What is Git?","Software.",0
+Technical,"Explain cloud computing.","Cloud computing provides on demand computing resources over the internet.",2
+Technical,"Explain cloud computing.","It is online storage.",1
+Technical,"Explain cloud computing.","Internet.",0
+Technical,"What is a stack?","Stack is a LIFO data structure.",2
+Technical,"What is a stack?","It stores data.",1
+Technical,"What is a stack?","Memory.",0
+Technical,"What is an API?","API allows communication between different software systems.",2
+Technical,"What is an API?","It connects apps.",1
+Technical,"What is an API?","Code.",0
+Behavioral,"Describe a time you led a team.","I coordinated tasks resolved conflicts and ensured timely delivery of our project.",2
+Behavioral,"Describe a time you led a team.","I was team leader once.",1
+Behavioral,"Describe a time you led a team.","Never.",0
+Behavioral,"How do you resolve conflicts?","I listen to both sides and find a balanced solution.",2
+Behavioral,"How do you resolve conflicts?","I talk to people.",1
+Behavioral,"How do you resolve conflicts?","Ignore them.",0
+Behavioral,"Describe a failure.","I missed a deadline once but improved my planning system afterwards.",2
+Behavioral,"Describe a failure.","I failed in exam once.",1
+Behavioral,"Describe a failure.","None.",0
+Behavioral,"How do you prioritize tasks?","I categorize tasks by urgency and importance.",2
+Behavioral,"How do you prioritize tasks?","I do important tasks first.",1
+Behavioral,"How do you prioritize tasks?","Random.",0
+Behavioral,"Give an example of teamwork.","I collaborated with peers using Agile methodology to complete a software module successfully.",2
+Behavioral,"Give an example of teamwork.","Worked with friends.",1
+Behavioral,"Give an example of teamwork.","No idea.",0
+Behavioral,"How do you handle criticism?","I take feedback constructively and improve accordingly.",2
+Behavioral,"How do you handle criticism?","I listen.",1
+Behavioral,"How do you handle criticism?","I get angry.",0
+Behavioral,"Describe decision making.","I analyze data consider risks and choose optimal solutions.",2
+Behavioral,"Describe decision making.","I think and decide.",1
+Behavioral,"Describe decision making.","Just guess.",0
+Behavioral,"How do you adapt to change?","I stay flexible and learn new tools quickly.",2
+Behavioral,"How do you adapt to change?","I try.",1
+Behavioral,"How do you adapt to change?","I resist.",0
+Behavioral,"Describe time management.","I use planning tools and deadlines to manage time effectively.",2
+Behavioral,"Describe time management.","I make schedule.",1
+Behavioral,"Describe time management.","Not sure.",0
+Behavioral,"Describe working under pressure.","I stay calm and focus on delivering quality results.",2
+Behavioral,"Describe working under pressure.","I try hard.",1
+Behavioral,"Describe working under pressure.","Very stressed.",0
+HR,Tell me about yourself.,"I am a software engineer with 4 years of experience specializing in backend development with Python and Django. In my previous role at TechCorp, I led the migration of our monolithic architecture to microservices, which improved system scalability by 40%. I am passionate about cloud computing and am looking for a role where I can solve complex architectural challenges.",2
+HR,Tell me about yourself.,"I grew up in Ohio and went to college for computer science. I've been working for a few years now and I like coding. In my free time, I play video games.",1
+HR,Tell me about yourself.,"I need a job because my rent is due.",0
+Technical,What is the difference between a list and a tuple in Python?,"The primary difference is that lists are mutable, meaning they can be modified after creation, while tuples are immutable. Lists use square brackets while tuples use parentheses. Generally, lists are used for homogenous collections of data, whereas tuples are often used for heterogeneous data structures.",2
+Technical,What is the difference between a list and a tuple in Python?,"Lists can be changed but tuples cannot be changed.",1
+Technical,What is the difference between a list and a tuple in Python?,"They are basically the same thing but one is faster.",0
+Behavioral,Describe a time you had a conflict with a coworker.,"In my last project, a designer and I disagreed on the user interface for a new feature. I set up a meeting to discuss our viewpoints, where I explained the technical constraints and he explained the user experience goals. We compromised by adjusting the backend logic to accommodate a simplified version of his design, which satisfied both the technical and UX requirements.",2
+Behavioral,Describe a time you had a conflict with a coworker.,"I had an argument with a teammate about code style. We just decided to follow the style guide eventually.",1
+Behavioral,Describe a time you had a conflict with a coworker.,"I usually just ignore people if they are being annoying so we don't fight.",0
+Technical,Explain the concept of Overfitting in Machine Learning.,"Overfitting occurs when a model learns the training data too well, capturing noise and fluctuations rather than the underlying pattern. This results in high accuracy on training data but poor performance on unseen test data. It can be mitigated using techniques like regularization, cross-validation, or pruning.",2
+Technical,Explain the concept of Overfitting in Machine Learning.,"Overfitting is when the model is too complex and memorizes the data.",1
+Technical,Explain the concept of Overfitting in Machine Learning.,"It means the computer is working too hard and gets hot.",0
+HR,Why do you want to work for this company?,"I've been following your company's work in renewable energy solutions for years. Your recent project on grid optimization aligns perfectly with my background in data science and my passion for sustainability. I want to contribute to a team that is making a tangible impact on the environment.",2
+HR,Why do you want to work for this company?,"It seems like a good place to work and the reviews on Glassdoor were okay.",1
+HR,Why do you want to work for this company?,"I heard you pay well.",0
+Technical,What is a Primary Key in SQL?,"A Primary Key is a unique identifier for a record in a database table. It ensures that no two rows have the same value in that column and it cannot contain NULL values. It is essential for establishing relationships between tables via Foreign Keys.",2
+Technical,What is a Primary Key in SQL?,"It is the main column in a table that identifies the row.",1
+Technical,What is a Primary Key in SQL?,"It is the key used to unlock the database.",0
+Behavioral,Tell me about a time you failed.,"I was leading a sprint and underestimated the complexity of a third-party API integration. We missed the deadline by two days. I took responsibility, conducted a retrospective to identify where the estimation went wrong, and implemented a buffer time for external dependencies in future sprints. We haven't missed a deadline since.",2
+Behavioral,Tell me about a time you failed.,"I missed a deadline once because I had too much work. I apologized and finished it later.",1
+Behavioral,Tell me about a time you failed.,"I don't really fail at things often.",0
+Technical,What is Polymorphism in Object-Oriented Programming?,"Polymorphism allows objects of different classes to be treated as objects of a common superclass. It enables a single interface to represent different underlying forms (data types). For example, a function 'draw()' can work differently for a 'Circle' object versus a 'Square' object.",2
+Technical,What is Polymorphism in Object-Oriented Programming?,"It means having many forms. It lets you use the same method name for different things.",1
+Technical,What is Polymorphism in Object-Oriented Programming?,"It is when code changes its shape automatically.",0
+HR,What is your greatest weakness?,"I sometimes struggle with delegating tasks because I want to ensure everything is done perfectly. However, I've been using project management tools like Jira to assign tasks and trust my team more. This has allowed me to focus on high-level strategy while empowering my team members.",2
+HR,What is your greatest weakness?,"I work too hard and care too much about my job.",1
+HR,What is your greatest weakness?,"I am always late to meetings.",0
+Technical,Explain the difference between TCP and UDP.,"TCP (Transmission Control Protocol) is connection-oriented and ensures reliable delivery of packets with error-checking and ordering. UDP (User Datagram Protocol) is connectionless and faster but does not guarantee delivery or order. TCP is used for web browsing, while UDP is used for streaming and gaming.",2
+Technical,Explain the difference between TCP and UDP.,"TCP is slower but safer, and UDP is faster but loses data sometimes.",1
+Technical,Explain the difference between TCP and UDP.,"TCP is for internet and UDP is for local networks.",0
+Behavioral,Give an example of how you prioritized work under pressure.,"During a product launch, we found a critical bug just hours before go-live. I prioritized fixing the bug over minor UI tweaks. I communicated the situation to stakeholders, delegated the fix to our senior dev, and handled the testing myself. We launched on time with a stable product, deploying the UI tweaks the next day.",2
+Behavioral,Give an example of how you prioritized work under pressure.,"I just made a list of things to do and did the most important ones first.",1
+Behavioral,Give an example of how you prioritized work under pressure.,"I panicked a bit but then I just worked really fast.",0
+Technical,What is a pointer in C++?,"A pointer is a variable that stores the memory address of another variable. They are used for dynamic memory allocation, array manipulation, and passing large structures to functions efficiently to avoid copying data.",2
+Technical,What is a pointer in C++?,"It points to a location in memory where data is saved.",1
+Technical,What is a pointer in C++?,"It is the cursor on the screen.",0
+HR,Where do you see yourself in 5 years?,"I aim to grow into a Senior Technical Lead role. I want to deepen my expertise in cloud architecture and mentor junior developers. I see myself leading major projects that drive efficiency for the company, similar to the roadmap you mentioned earlier.",2
+HR,Where do you see yourself in 5 years?,"I hope to be in a higher position with a better salary.",1
+HR,Where do you see yourself in 5 years?,"Hopefully retired on a beach somewhere.",0
+Technical,What is React.js?,"React is a JavaScript library for building user interfaces, primarily for single-page applications. It allows developers to create reusable UI components and manages the state of the application efficiently using a virtual DOM to optimize rendering performance.",2
+Technical,What is React.js?,"It is a framework for making websites look good using JavaScript.",1
+Technical,What is React.js?,"It is a programming language for backend databases.",0
+Behavioral,Describe a time you showed leadership.,"When our team lead fell ill during a critical week, I stepped up to facilitate the daily stand-ups and coordinated with the product manager to keep the backlog moving. I ensured roadblocks were removed for the junior devs. We successfully delivered the sprint goals despite the absence of our lead.",2
+Behavioral,Describe a time you showed leadership.,"I helped a new hire set up their computer and explained how the code works.",1
+Behavioral,Describe a time you showed leadership.,"I told everyone what to do when the boss wasn't looking.",0
+Technical,What is a Docker container?,"A Docker container is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, libraries, and settings. It ensures consistency across different computing environments.",2
+Technical,What is a Docker container?,"It is like a virtual machine but smaller and faster.",1
+Technical,What is a Docker container?,"It is a box where you store your code files.",0
+HR,What are your salary expectations?,"Based on my research of the market rates for this role and my 5 years of experience, I am looking for a base salary between $90,000 and $100,000, though I am flexible depending on the full benefits package.",2
+HR,What are your salary expectations?,"I am looking for around $90k.",1
+HR,What are your salary expectations?,"I want a million dollars.",0
+Technical,Explain the concept of recursion.,"Recursion is a programming technique where a function calls itself to solve a problem. It typically involves a base case to stop the execution and a recursive step to break the problem down into smaller sub-problems. It's commonly used for tree traversals and sorting algorithms like Merge Sort.",2
+Technical,Explain the concept of recursion.,"Recursion is when a function calls itself until it stops.",1
+Technical,Explain the concept of recursion.,"It is when you make a loop that goes on forever.",0
+Behavioral,How do you handle constructive criticism?,"I view criticism as an opportunity to improve. For instance, my manager once noted my code lacked comments. I didn't take it personally; instead, I researched documentation best practices and implemented a new standard for my future code, which the team eventually adopted.",2
+Behavioral,How do you handle constructive criticism?,"I listen to it and try to do better next time.",1
+Behavioral,How do you handle constructive criticism?,"I don't like it when people judge my work.",0
+Technical,What is the purpose of Git?,"Git is a distributed version control system that tracks changes in source code during software development. It allows multiple developers to collaborate on the same project, manage branches for new features, and revert to previous versions if errors occur.",2
+Technical,What is the purpose of Git?,"It saves your code so you don't lose it.",1
+Technical,What is the purpose of Git?,"It is a website where you download code.",0
+HR,How did you hear about this position?,"I saw the posting on LinkedIn and was immediately interested because I've used your software products for years. I also reached out to a former colleague who works here, and they spoke very highly of the engineering culture.",2
+HR,How did you hear about this position?,"I found it on a job board.",1
+HR,How did you hear about this position?,"My mom told me to apply.",0
+Technical,What is the difference between inner join and left join?,"An Inner Join returns only the rows where there is a match in both tables. A Left Join returns all rows from the left table and the matched rows from the right table; if there is no match, the result is NULL on the right side.",2
+Technical,What is the difference between inner join and left join?,"Inner join combines matches, left join takes everything from the first table.",1
+Technical,What is the difference between inner join and left join?,"One joins the inside and one joins the left side of the data.",0
+Behavioral,Describe a time you had to learn something quickly.,"I was assigned a project using Go, a language I hadn't used before. I spent the weekend going through the official documentation and building a small practice app. By Monday, I was able to contribute to the codebase and within two weeks I was pushing production-ready code.",2
+Behavioral,Describe a time you had to learn something quickly.,"I had to learn a new tool for work. I watched a few videos and figured it out.",1
+Behavioral,Describe a time you had to learn something quickly.,"I learn things fast all the time.",0
+Technical,What is Dependency Injection?,"Dependency Injection is a design pattern used to implement IoC (Inversion of Control). It allows a class to receive its dependencies from an external source rather than creating them itself. This makes the code more modular, easier to test, and loosely coupled.",2
+Technical,What is Dependency Injection?,"It is when you pass objects into a class instead of making them inside.",1
+Technical,What is Dependency Injection?,"It is injecting code into a website.",0
+HR,Why are you leaving your current job?,"I have learned a lot at my current role, but I feel I have reached a plateau in terms of technical challenges. I am looking for a position that offers more exposure to machine learning applications, which is a core focus of your company.",2
+HR,Why are you leaving your current job?,"I want a change of scenery and a better commute.",1
+HR,Why are you leaving your current job?,"My boss is annoying.",0
+Technical,What is an interface in Java?,"An interface in Java is a reference type, similar to a class, that can contain only constants, method signatures, default methods, static methods, and nested types. It provides a way to achieve abstraction and multiple inheritance.",2
+Technical,What is an interface in Java?,"It is a class that has no body for its methods.",1
+Technical,What is an interface in Java?,"It is the screen the user sees.",0
+Behavioral,Tell me about a time you made a mistake.,"I once deployed a hotfix directly to production without running the full regression suite, causing a minor outage. I immediately rolled back the change. Afterward, I implemented a strict CI/CD pipeline rule that prevents deployment without passing all tests, ensuring it wouldn't happen again.",2
+Behavioral,Tell me about a time you made a mistake.,"I deleted a file by accident but I got it back from the backup.",1
+Behavioral,Tell me about a time you made a mistake.,"I don't remember making any big mistakes.",0
+Technical,What is the difference between HTTP and HTTPS?,"HTTPS is the secure version of HTTP. It uses SSL/TLS to encrypt the data transferred between the client and server, ensuring confidentiality and data integrity, whereas HTTP sends data in plaintext.",2
+Technical,What is the difference between HTTP and HTTPS?,"HTTPS is secure and has an S at the end.",1
+Technical,What is the difference between HTTP and HTTPS?,"HTTPS is faster than HTTP.",0
+HR,What motivates you?,"I am motivated by solving difficult logic puzzles and seeing my code used in the real world. In my last job, seeing customer feedback improve after I optimized the search algorithm was incredibly satisfying.",2
+HR,What motivates you?,"I like getting tasks done and crossing them off my list.",1
+HR,What motivates you?,"Money and weekends.",0
+Technical,What is a normalization in databases?,"Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. It involves dividing large tables into smaller, related tables and defining relationships between them, typically following forms like 1NF, 2NF, and 3NF.",2
+Technical,What is a normalization in databases?,"It means cleaning up the database so there are no duplicates.",1
+Technical,What is a normalization in databases?,"It is making the data look normal.",0
+Behavioral,How do you handle tight deadlines?,"I start by breaking the project down into smaller tasks and estimating the time for each. If it looks unachievable, I communicate early with stakeholders to either reduce scope or add resources. I then focus on the MVP (Minimum Viable Product) to ensure the core value is delivered on time.",2
+Behavioral,How do you handle tight deadlines?,"I work late nights to get it done.",1
+Behavioral,How do you handle tight deadlines?,"I just work faster.",0
+Technical,What is the difference between abstract class and interface?,"An abstract class can have method implementations (state) and constructors, while an interface (pre-Java 8) only has abstract methods. A class can extend only one abstract class but can implement multiple interfaces.",2
+Technical,What is the difference between abstract class and interface?,"Abstract classes are for parents and interfaces are for actions.",1
+Technical,What is the difference between abstract class and interface?,"They are the same thing.",0
+HR,What are your strengths?,"My greatest strength is my problem-solving ability combined with patience. I enjoy debugging complex legacy code that others avoid. Additionally, I am a strong communicator and can translate technical concepts for non-technical stakeholders effectively.",2
+HR,What are your strengths?,"I am a hard worker and a quick learner.",1
+HR,What are your strengths?,"I am the best coder I know.",0
+Technical,What is a deadlock in OS?,"A deadlock is a situation in an operating system where a set of processes are blocked because each process is holding a resource and waiting for another resource acquired by some other process. It creates a cycle of dependencies that prevents any process from proceeding.",2
+Technical,What is a deadlock in OS?,"It is when the computer freezes and you have to restart it.",1
+Technical,What is a deadlock in OS?,"It is when the lock screen gets stuck.",0
+Behavioral,Describe a time you went above and beyond.,"A client called late on a Friday with a critical issue. Although I was about to leave, I stayed to troubleshoot. I identified the root cause, fixed it, and documented the solution for the support team. The client sent a thank you note to my manager the next week.",2
+Behavioral,Describe a time you went above and beyond.,"I stayed late once to finish a report.",1
+Behavioral,Describe a time you went above and beyond.,"I did my job exactly as described.",0
+Technical,What is MVC architecture?,"MVC stands for Model-View-Controller. It is a design pattern that separates an application into three components: The Model manages data and logic, the View handles the display/UI, and the Controller processes user input and updates the Model and View.",2
+Technical,What is MVC architecture?,"It stands for Model View Controller and it separates code.",1
+Technical,What is MVC architecture?,"It is a way to organize files on your computer.",0
+HR,Do you have any questions for us?,"Yes, I noticed you are expanding into the Asian market. How does the engineering team plan to handle the localization and internalization challenges for the product? Also, what does success look like for this role in the first 90 days?",2
+HR,Do you have any questions for us?,"What are the working hours?",1
+HR,Do you have any questions for us?,"No, I'm good.",0
+Technical,What is the usage of 'static' keyword in Java?,"The 'static' keyword indicates that a member (variable or method) belongs to the type itself, rather than to an instance of that type. This means only one instance of a static field exists, shared across all objects of the class.",2
+Technical,What is the usage of 'static' keyword in Java?,"It means the variable cannot be changed.",1
+Technical,What is the usage of 'static' keyword in Java?,"It makes the code static and unmoving.",0
+Behavioral,How do you handle a difficult client?,"I listen actively to understand their frustration without interrupting. I acknowledge their pain points to validate their feelings, then shift to a solution-oriented approach. For example, when a client was angry about a delay, I explained the technical reason clearly and offered a discounted service for the next month, which retained the account.",2
+Behavioral,How do you handle a difficult client?,"I try to be polite and answer their questions.",1
+Behavioral,How do you handle a difficult client?,"I tell them it's not my fault.",0
+Technical,What is Big O Notation?,"Big O Notation is a mathematical concept used in computer science to describe the performance or complexity of an algorithm. It specifically describes the worst-case scenario of execution time or space required relative to the input size (n).",2
+Technical,What is Big O Notation?,"It measures how fast a program runs.",1
+Technical,What is Big O Notation?,"It is the letter O used in coding.",0
+HR,What is your ideal work environment?,"I thrive in a collaborative environment where open communication is encouraged. I prefer a mix of deep-focus time for coding and team brainstorming sessions for architecture planning. I also value a culture that prioritizes continuous learning.",2
+HR,What is your ideal work environment?,"I like a quiet office with free coffee.",1
+HR,What is your ideal work environment?,"Somewhere I can sleep.",0
+Technical,What is the difference between GET and POST?,"GET is used to request data from a specified resource, and parameters are included in the URL string. POST is used to send data to a server to create/update a resource, and data is enclosed in the request body. POST is more secure for sensitive data.",2
+Technical,What is the difference between GET and POST?,"GET gets data and POST posts data.",1
+Technical,What is the difference between GET and POST?,"GET is for email and POST is for mail.",0
+Behavioral,Tell me about a time you disagreed with your boss.,"My boss wanted to release a feature that I knew had security vulnerabilities. I privately presented him with a risk assessment report showing the potential data breach impact. He agreed to delay the launch by a week so we could patch the holes.",2
+Behavioral,Tell me about a time you disagreed with your boss.,"I told my boss I didn't want to do a task, but I did it anyway.",1
+Behavioral,Tell me about a time you disagreed with your boss.,"I told him he was wrong in front of everyone.",0
+Technical,What is a Constructor?,"A constructor is a special method of a class or structure in object-oriented programming that initializes an object of that type. It sets the initial values for the object's member variables and is called automatically when an object is created.",2
+Technical,What is a Constructor?,"It builds the code.",1
+Technical,What is a Constructor?,"It is a construction worker.",0
+HR,How do you handle stress?,"I handle stress by staying organized. I use Trello to track my tasks so I don't feel overwhelmed. I also make sure to take short breaks to step away from the screen, which helps me return to the problem with a fresh perspective.",2
+HR,How do you handle stress?,"I just push through it.",1
+HR,How do you handle stress?,"I scream into a pillow.",0
+Technical,What is the purpose of an index in a database?,"An index is a data structure that improves the speed of data retrieval operations on a database table at the cost of additional writes and storage space. It works like an index in a book, allowing the database to find data without scanning every row.",2
+Technical,What is the purpose of an index in a database?,"It sorts the data alphabetically.",1
+Technical,What is the purpose of an index in a database?,"It is the list of contents.",0
+Behavioral,What do you do when you don't know the answer to a problem?,"I first try to research the solution using documentation and StackOverflow. If I'm still stuck after a set timebox (e.g., 1 hour), I reach out to a colleague with a summary of what I've tried so far. This ensures I'm respectful of their time while still getting the help I need.",2
+Behavioral,What do you do when you don't know the answer to a problem?,"I ask someone for help immediately.",1
+Behavioral,What do you do when you don't know the answer to a problem?,"I guess.",0
+Technical,What is a thread?,"A thread is the smallest sequence of programmed instructions that can be managed independently by a scheduler. Multiple threads can exist within the same process, sharing the process's resources but executing independently.",2
+Technical,What is a thread?,"It is a part of a program that runs.",1
+Technical,What is a thread?,"It is used to sew clothes.",0
+HR,What are your hobbies?,"I enjoy hiking and landscape photography, which helps me disconnect and recharge. I also contribute to an open-source library for image processing, which keeps my coding skills sharp even in my downtime.",2
+HR,What are your hobbies?,"I like watching movies and reading.",1
+HR,What are your hobbies?,"Sleeping.",0
+Technical,What is ACID properties in Database?,"ACID stands for Atomicity, Consistency, Isolation, and Durability. These are a set of properties of database transactions intended to guarantee data validity despite errors, power failures, or other mishaps.",2
+Technical,What is ACID properties in Database?,"It stands for Atomicity and Consistency.",1
+Technical,What is ACID properties in Database?,"It is a type of chemical.",0
+Behavioral,Describe a time you persuaded someone.,"We were choosing between AWS and Azure for a project. My team favored AWS due to familiarity, but I argued for Azure because of its better integration with our existing .NET stack. I created a cost-benefit analysis and a prototype. After seeing the data, the team agreed to switch to Azure.",2
+Behavioral,Describe a time you persuaded someone.,"I convinced my coworker to use my idea.",1
+Behavioral,Describe a time you persuaded someone.,"I forced them to listen to me.",0
+Technical,What is garbage collection in Java?,"Garbage collection is the process of automatically managing memory. The JVM identifies objects that are no longer in use (referenced) by the program and deletes them to free up memory resources, preventing memory leaks.",2
+Technical,What is garbage collection in Java?,"It deletes bad code.",1
+Technical,What is garbage collection in Java?,"It takes out the trash.",0
+HR,What accomplishment are you most proud of?,"I am most proud of building a patient portal for a local clinic. It reduced their appointment scheduling time by 50% and received positive feedback from elderly patients for its accessibility. Seeing my code improve people's access to healthcare was very rewarding.",2
+HR,What accomplishment are you most proud of?,"I graduated college with good grades.",1
+HR,What accomplishment are you most proud of?,"I beat a video game on hard mode.",0
+Technical,What is a Lambda function?,"A Lambda function is a small, anonymous function defined without a name. In Python, it is defined using the 'lambda' keyword and can take any number of arguments but can only have one expression. It is often used for short, throwaway functions inside arguments like map() or filter().",2
+Technical,What is a Lambda function?,"It is a short function in Python.",1
+Technical,What is a Lambda function?,"It is a Greek letter.",0
+Behavioral,Tell me about a time you worked with a difficult team member.,"I worked with a developer who often delayed his commits. Instead of confronting him publicly, I asked him for a 1:1 coffee chat. I learned he was struggling with the new framework. I offered to pair program with him for a few days, which helped him get up to speed and improved our team velocity.",2
+Behavioral,Tell me about a time you worked with a difficult team member.,"I had a lazy teammate so I did his work for him.",1
+Behavioral,Tell me about a time you worked with a difficult team member.,"I told the manager to fire him.",0
+Technical,What is inheritance?,"Inheritance is a mechanism in OOP where a new class (subclass) derives properties and behaviors (methods) from an existing class (superclass). It promotes code reusability and establishes a relationship between classes.",2
+Technical,What is inheritance?,"It is when a class gets things from another class.",1
+Technical,What is inheritance?,"It is getting money from parents.",0
+HR,How do you keep your technical skills current?,"I subscribe to several tech newsletters like Hacker News and follow industry leaders on Twitter. I also complete one course on Coursera every quarter; currently, I am taking a course on Advanced Kubernetes.",2
+HR,How do you keep your technical skills current?,"I read articles sometimes.",1
+HR,What is your experience with Agile?,"I have worked in Agile environments for 3 years, specifically Scrum. I am comfortable with daily stand-ups, two-week sprints, sprint planning, and retrospectives. I find it effective for adapting to changing requirements.",2
+Technical,What is the difference between == and .equals() in Java?,"The '==' operator compares the memory addresses (reference equality) of two objects, whereas the .equals() method compares the actual content (value equality) of the objects.",2
+Technical,What is the difference between == and .equals() in Java?,"One is an operator and one is a method.",1
+Technical,What is the difference between == and .equals() in Java?,"They are the same.",0
+Behavioral,Give an example of a goal you reached and how you achieved it.,"My goal was to become an AWS Certified Solutions Architect. I created a 3-month study plan, dedicating 2 hours every morning before work. I built three practice projects to apply the concepts. I passed the exam on my first attempt last month.",2
+Behavioral,Give an example of a goal you reached and how you achieved it.,"I wanted to learn SQL so I studied it and now I know it.",1
+Behavioral,Give an example of a goal you reached and how you achieved it.,"I wanted to finish work early so I did.",0
+Technical,What is CSS specificity?,"CSS specificity is the set of rules that determines which style is applied to an element when multiple rules could apply. It is calculated based on a hierarchy: inline styles, IDs, classes/attributes, and elements. The rule with the highest specificity score wins.",2
+Technical,What is CSS specificity?,"It decides which color shows up.",1
+Technical,What is CSS specificity?,"It is how specific the code is.",0
+HR,What makes you unique?,"My unique combination of design background and backend engineering allows me to bridge the gap between UI/UX designers and server-side developers. I can write efficient APIs while understanding exactly how the frontend consumes them.",2
+HR,What makes you unique?,"I am a very hard worker.",1
+HR,What makes you unique?,"I am normal.",0
+Technical,What is the CAP theorem?,"The CAP theorem states that a distributed data store can only provide two of the following three guarantees: Consistency (every read receives the most recent write), Availability (every request receives a response), and Partition tolerance (system continues to operate despite network failures).",2
+Technical,What is the CAP theorem?,"It is about databases.",1
+Technical,What is the CAP theorem?,"It is a law about hats.",0
+Behavioral,Describe a situation where you had to adapt to a significant change.,"Our company switched from Waterfall to Agile in the middle of a project. It was chaotic initially. I took the initiative to read up on Scrum best practices and organized a workshop for my team to explain the new workflow. This reduced the friction and helped us transition smoothly within two sprints.",2
+Behavioral,Describe a situation where you had to adapt to a significant change.,"They changed the software we use and I had to get used to it.",1
+Behavioral,Describe a situation where you had to adapt to a significant change.,"I hate change.",0
+Technical,What is a virtual environment in Python?,"A virtual environment is a self-contained directory tree that contains a Python installation for a particular version of Python, plus a number of additional packages. It allows you to manage dependencies for different projects separately, avoiding version conflicts.",2
+Technical,What is a virtual environment in Python?,"It is a place to run code safely.",1
+Technical,What is a virtual environment in Python?,"It is a video game.",0
+HR,How do you define success?,"I define success as delivering high-quality work that brings value to the end-user while maintaining a healthy team dynamic. If the client is happy and my team grew from the experience, that is a success to me.",2
+HR,How do you define success?,"Success is finishing the project.",1
+HR,How do you define success?,"Making lots of money.",0
+Technical,What is the DOM?,"The DOM (Document Object Model) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects.",2
+Technical,What is the DOM?,"It stands for Document Object Model.",1
+Technical,What is the DOM?,"It is the dominant code.",0
+Behavioral,Tell me about a time you had to compromise.,"I wanted to rewrite a legacy module to clean up technical debt, but the Product Manager needed a new feature immediately. We compromised by agreeing that I would implement the new feature first, but we would allocate 20% of the next sprint to refactoring the legacy module.",2
+Behavioral,Tell me about a time you had to compromise.,"I let the other person have their way.",1
+Behavioral,Tell me about a time you had to compromise.,"I never compromise.",0
+Technical,What is NoSQL?,"NoSQL refers to non-relational databases that store data in formats other than tabular relations, such as documents, key-pairs, or graphs. They are designed for high scalability and flexibility, often used for big data and real-time web applications (e.g., MongoDB, Redis).",2
+Technical,What is NoSQL?,"It means no SQL is used.",1
+Technical,What is NoSQL?,"It is a database that hates SQL.",0
+HR,Are you willing to relocate?,"Yes, I am willing to relocate. I have researched your city and it seems like a vibrant place with a great tech scene. I am excited about the prospect of a new adventure.",2
+HR,Are you willing to relocate?,"Maybe, if the money is good.",1
+HR,Are you willing to relocate?,"No.",0
+Technical,What is a hash map?,"A hash map is a data structure that implements an associative array abstract data type, a structure that can map keys to values. It uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.",2
+Technical,What is a hash map?,"It maps data to keys.",1
+Technical,What is a hash map?,"It is a map of hashes.",0
+Behavioral,How do you organize your day?,"I start every morning by reviewing my Jira tickets and prioritizing the top 3 tasks for the day. I block out 'deep work' time in the morning for coding when I'm most alert, and save meetings and emails for the afternoon.",2
+Behavioral,How do you organize your day?,"I just do whatever comes up.",1
+Behavioral,How do you organize your day?,"I don't organize anything.",0
+Technical,What is Unit Testing?,"Unit testing is a software testing method where individual units or components of a software are tested. The purpose is to validate that each unit of the software code performs as expected. It is usually automated and written by developers.",2
+Technical,What is Unit Testing?,"It is testing one part of the code.",1
+Technical,What is Unit Testing?,"It is testing the units.",0
+HR,Who is your role model?,"My role model is Satya Nadella. I admire how he transformed Microsoft's culture from competitive to collaborative and his focus on empathy in leadership. I try to apply that same empathy when working with my team.",2
+HR,Who is your role model?,"Steve Jobs.",1
+HR,Who is your role model?,"Batman.",0
+Technical,What is the output of 2+2 in Python string format?,"If you mean adding two strings '2' + '2', the output is '22'. If you mean the integer addition formatted as a string, it is '4'.",2
+Technical,What is the output of 2+2 in Python string format?,"It is 4.",1
+Technical,What is the output of 2+2 in Python string format?,"22.",1
+Technical,What is the output of 2+2 in Python string format?,"Math.",0
+Behavioral,Describe a complex problem you solved.,"We had a memory leak in our production server that caused crashes every 24 hours. I used profiling tools to analyze the heap dumps and identified a circular reference in our caching layer. I rewrote the caching logic to use weak references, which solved the leak and stabilized the server.",2
+Behavioral,Describe a complex problem you solved.,"I fixed a bug in the code that was crashing the app.",1
+Behavioral,Describe a complex problem you solved.,"I restarted the server.",0
+Technical,What is an API?,"API stands for Application Programming Interface. It is a set of rules and protocols that allows different software applications to communicate with each other. It defines the methods and data formats that applications can use to request and exchange information.",2
+Technical,What is an API?,"It lets programs talk to each other.",1
+Technical,What is an API?,"It is a computer thing.",0
+HR,How do you handle repetitive tasks?,"I try to automate repetitive tasks whenever possible using scripts. If automation isn't possible, I listen to podcasts or music to keep my focus and view it as a necessary part of maintaining a high-quality product.",2
+HR,How do you handle repetitive tasks?,"I just do them.",1
+HR,How do you handle repetitive tasks?,"I get bored.",0
+Technical,What is the 'this' keyword in JavaScript?,"In JavaScript, the 'this' keyword refers to the object it belongs to. Its value depends on how the function is called (e.g., in a method it refers to the owner object, alone it refers to the global object, in an event it refers to the element that received the event).",2
+Technical,What is the 'this' keyword in JavaScript?,"It refers to the current thing.",1
+Technical,What is the 'this' keyword in JavaScript?,"It is a word.",0
+Behavioral,Tell me about a time you delegated effectively.,"As a senior dev, I had to deliver a large module. I delegated the UI component creation to a junior developer, providing him with clear wireframes and API contracts. I checked in daily. This allowed me to focus on the complex backend logic, and he learned a lot about component design.",2
+Behavioral,Tell me about a time you delegated effectively.,"I gave some work to my teammate because I was busy.",1
+Behavioral,Tell me about a time you delegated effectively.,"I made someone else do my work.",0
+Technical,What is JSON?,"JSON (JavaScript Object Notation) is a lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse and generate. It is language-independent but uses conventions familiar to programmers of the C-family of languages.",2
+Technical,What is JSON?,"It is a file format for data.",1
+Technical,What is JSON?,"It is a person's name.",0
+HR,What are your long-term career goals?,"In the long term, I aspire to become a CTO of a tech startup. I want to build a product from the ground up, not just technically, but also by shaping the engineering culture and strategy. Working here will give me the experience in scaling systems that I need for that journey.",2
+HR,What are your long-term career goals?,"I want to keep coding.",1
+HR,What are your long-term career goals?,"To be rich.",0
+Technical,What is the difference between TCP and IP?,"TCP (Transmission Control Protocol) manages the reliability and ordering of the data packets, while IP (Internet Protocol) handles the addressing and routing of those packets to the correct destination. They work together as the TCP/IP stack.",2
+Technical,What is the difference between TCP and IP?,"They are internet protocols.",1
+Technical,What is the difference between TCP and IP?,"One is for phone and one is for internet.",0
+Behavioral,How do you react to change?,"I embrace change as an opportunity to learn. When our company pivoted to a mobile-first strategy, I immediately signed up for an iOS development workshop. I helped the team transition our web app to a mobile-responsive design.",2
+Behavioral,How do you react to change?,"I just go with the flow.",1
+Behavioral,How do you react to change?,"I don't like it.",0
+Technical,What is a foreign key?,"A foreign key is a field (or collection of fields) in one table that refers to the primary key in another table. It is used to link two tables together and enforce referential integrity.",2
+Technical,What is a foreign key?,"It links two tables.",1
+Technical,What is a foreign key?,"It is a key from another country.",0
+HR,Why is there a gap in your employment?,"I took six months off to care for a sick family member. During that time, I stayed current by contributing to open source projects and obtaining my AWS Cloud Practitioner certification. I am now fully ready to return to the workforce.",2
+HR,Why is there a gap in your employment?,"I didn't have a job for a while.",1
+HR,Why is there a gap in your employment?,"I just didn't want to work.",0
+Technical,What is an algorithm?,"An algorithm is a step-by-step procedure or set of rules to be followed in calculations or other problem-solving operations by a computer. It takes an input, processes it, and produces an output.",2
+Technical,What is an algorithm?,"It is how computers think.",1
+Technical,What is an algorithm?,"It is magic math.",0
+Behavioral,Tell me about a time you were under a lot of pressure.,"During university finals, my laptop crashed, losing my final project two days before the deadline. I stayed calm, went to the computer lab, and rewrote the code based on my notes. I worked for 30 hours straight but submitted it on time and got an A.",2
+Behavioral,Tell me about a time you were under a lot of pressure.,"I had a lot of exams once.",1
+Behavioral,Tell me about a time you were under a lot of pressure.,"I cried.",0
+Technical,What is cloud computing?,"Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the Internet ('the cloud') to offer faster innovation, flexible resources, and economies of scale.",2
+Technical,What is cloud computing?,"It is using computers on the internet.",1
+Technical,What is cloud computing?,"It is storing data in the sky.",0
+HR,How would your coworkers describe you?,"My coworkers would describe me as reliable and the 'debugger' of the team. They often come to me when they are stuck on a tricky error because I have a systematic approach to troubleshooting. They would also say I bring good donuts on Fridays.",2
+HR,How would your coworkers describe you?,"They would say I am nice.",1
+HR,How would your coworkers describe you?,"They don't talk to me.",0
+Technical,What is the difference between compilation and interpretation?,"Compilation transforms the entire source code into machine code (binary) at once before execution (e.g., C++). Interpretation translates the source code line-by-line during execution (e.g., Python). Compiled code is generally faster to execute.",2
+Technical,What is the difference between compilation and interpretation?,"One is fast and one is slow.",1
+Technical,What is the difference between compilation and interpretation?,"Compiling is writing code.",0
+Behavioral,Have you ever had to handle a conflict of interest?,"Yes, in a previous role, my cousin applied for a job in my department. I immediately disclosed this relationship to HR and recused myself from the interview panel and decision-making process to ensure fairness and transparency.",2
+Behavioral,Have you ever had to handle a conflict of interest?,"I hired my friend once.",1
+Behavioral,Have you ever had to handle a conflict of interest?,"I don't know what that is.",0
+Technical,What is a cookie?,"A cookie is a small piece of data stored on the user's computer by the web browser while browsing a website. It is used to remember stateful information (like items in a shopping cart) or to record the user's browsing activity.",2
+Technical,What is a cookie?,"It tracks you online.",1
+Technical,What is a cookie?,"It is a sweet snack.",0
+HR,What are three words to describe yourself?,"Analytical, Adaptable, and Empathetic. Analytical because I love data, Adaptable because I thrive in fast-paced tech environments, and Empathetic because I prioritize user experience and team dynamics.",2
+HR,What are three words to describe yourself?,"Smart, fast, good.",1
+HR,What are three words to describe yourself?,"Cool, fun, tired.",0
+Technical,What is Agile methodology?,"Agile is an iterative approach to project management and software development that helps teams deliver value to their customers faster and with fewer headaches. Requirements, plans, and results are evaluated continuously so teams have a natural mechanism for responding to change quickly.",2
+Technical,What is Agile methodology?,"It is a way to manage projects fast.",1
+Technical,What is Agile methodology?,"It means running fast.",0
+Behavioral,Tell me about a time you improved a process.,"Our deployment process used to take 2 hours and involved manual file copying. I wrote a bash script to automate the build and transfer process, and integrated it with Jenkins. This reduced deployment time to 15 minutes and eliminated human error.",2
+Behavioral,Tell me about a time you improved a process.,"I made the meetings shorter.",1
+Behavioral,Tell me about a time you improved a process.,"I stopped doing the hard work.",0
+Technical,What is a firewall?,"A firewall is a network security device that monitors and filters incoming and outgoing network traffic based on an organization's previously established security policies. It acts as a barrier between a private internal network and the public internet.",2
+Technical,What is a firewall?,"It protects the computer from viruses.",1
+Technical,What is a firewall?,"It is a wall of fire.",0
+HR,Why should we hire you?,"You should hire me because I have the exact skill set you need—Python and AWS—plus a proven track record of delivering projects on time. I don't just write code; I understand the business value behind it. I am ready to hit the ground running on day one.",2
+HR,Why should we hire you?,"Because I am good at coding.",1
+HR,Why should we hire you?,"I need the money.",0
+Technical,What is a binary tree?,"A binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child. It is used for efficient searching and sorting algorithms.",2
+Technical,What is a binary tree?,"It is a tree with two branches.",1
+Technical,What is a binary tree?,"It is a tree made of zeros and ones.",0
+Behavioral,Give an example of how you used data to make a decision.,"We noticed a drop in user retention. I analyzed the user logs and found that 60% of drop-offs happened at the registration page. We A/B tested a simplified signup form versus the original. The data showed the simplified form increased conversions by 15%, so we implemented that one.",2
+Behavioral,Give an example of how you used data to make a decision.,"I looked at the numbers and decided to change the design.",1
+Behavioral,Give an example of how you used data to make a decision.,"I guessed based on what looked cool.",0
+Technical,What is latency?,"Latency is the time delay between the cause and the effect of some physical change in the system being observed. In networking, it is the time it takes for a data packet to travel from the source to the destination.",2
+Technical,What is latency?,"It is how slow the internet is.",1
+Technical,What is latency?,"It is being late.",0
+HR,What is your dream job?,"My dream job is a role where I can combine my technical skills with my passion for education. Ideally, I'd like to lead a team that builds educational software for under-resourced schools, making a real social impact.",2
+HR,What is your dream job?,"Being a professional gamer.",1
+HR,What is your dream job?,"Not working.",0
+Technical,What is load balancing?,"Load balancing is the process of distributing network traffic across multiple servers. This ensures no single server bears too much demand. It improves application responsiveness and increases availability of applications for users.",2
+Technical,What is load balancing?,"It keeps the servers balanced.",1
+Technical,What is load balancing?,"It is weighing the computer.",0
+Behavioral,Tell me about a time you had to deliver bad news.,"I had to tell a client that their feature request would not make it into the current release due to stability issues. I explained the risks of rushing it, provided a concrete timeline for when it would be ready, and offered a workaround in the meantime. They appreciated the honesty.",2
+Behavioral,Tell me about a time you had to deliver bad news.,"I told the client we couldn't do it.",1
+Behavioral,Tell me about a time you had to deliver bad news.,"I sent an email and hid.",0
+Technical,What is a microservice?,"Microservices is an architectural style that structures an application as a collection of services that are highly maintainable and testable, loosely coupled, independently deployable, and organized around business capabilities.",2
+Technical,What is a microservice?,"It is a small service.",1
+Technical,What is a microservice?,"It is a tiny computer.",0
+HR,How do you prioritize multiple deadlines?,"I use the Eisenhower Matrix to categorize tasks by urgency and importance. I tackle the urgent and high-impact items first. If two deadlines conflict, I speak with my manager immediately to determine which project takes precedence.",2
+HR,How do you prioritize multiple deadlines?,"I try to do everything at once.",1
+HR,How do you prioritize multiple deadlines?,"I flip a coin.",0
+Technical,What is machine learning?,"Machine learning is a subset of artificial intelligence that involves training algorithms to learn patterns from data and make predictions or decisions without being explicitly programmed for each specific rule.",2
+Technical,What is machine learning?,"It is when robots learn.",1
+Technical,What is machine learning?,"It is sci-fi stuff.",0
+Behavioral,Describe a time you were creative.,"We needed to demo a mobile app but the projector broke. I quickly set up a screen mirroring session on my laptop and invited everyone to a Zoom call so they could see my screen on their own devices. The demo went smoothly despite the hardware failure.",2
+Behavioral,Describe a time you were creative.,"I drew a picture for a presentation.",1
+Behavioral,Describe a time you were creative.,"I lied to get out of trouble.",0
+Technical,What is the kernel?,"The kernel is the central component of an operating system. It manages the system's resources and the communication between hardware and software components. It handles memory management, process management, and disk management.",2
+Technical,What is the kernel?,"It is the core of the OS.",1
+Technical,What is the kernel?,"It is popcorn.",0
+HR,What is your notice period?,"I have a standard 2-week notice period at my current job. I am committed to documenting my work and ensuring a smooth handover during that time before starting here.",2
+HR,What is your notice period?,"I can start whenever you want.",1
+HR,What is your notice period?,"I'll just quit today.",0
+Technical,What is Cross-Site Scripting (XSS)?,"XSS is a security vulnerability where an attacker injects malicious scripts into content from otherwise trusted websites. This happens when an application includes untrusted data in a web page without proper validation or escaping.",2
+Technical,What is Cross-Site Scripting (XSS)?,"It is when a hacker changes your website code.",1
+Technical,What is Cross-Site Scripting (XSS)?,"It is a font style.",0
+Behavioral,Describe a time you had to mentor someone.,"We hired a junior developer who was struggling with our Git workflow. I set up daily 15-minute syncs to review his PRs together, explaining the 'why' behind each comment. Within a month, his code quality improved significantly and he began reviewing others' code.",2
+Behavioral,Describe a time you had to mentor someone.,"I showed the new guy where the coffee machine was.",1
+Behavioral,Describe a time you had to mentor someone.,"I don't like teaching people.",0
+Technical,What is a Stack data structure?,"A Stack is a linear data structure that follows the LIFO (Last In, First Out) principle. The last element added to the stack is the first one to be removed. It supports operations like push (add) and pop (remove).",2
+Technical,What is a Stack data structure?,"It is a pile of data.",1
+Technical,What is a Stack data structure?,"It is used to stack money.",0
+HR,How do you handle feedback you disagree with?,"I listen to the feedback first to understand the perspective. If I disagree, I ask for specific examples to clarify the issue. If I still feel the feedback is inaccurate, I calmly present my evidence, but I ultimately respect the manager's decision and try to find a middle ground.",2
+HR,How do you handle feedback you disagree with?,"I just ignore it if it's wrong.",1
+HR,How do you handle feedback you disagree with?,"I argue until they agree with me.",0
+Technical,What is CI/CD?,"CI/CD stands for Continuous Integration and Continuous Deployment (or Delivery). It is a set of practices that automates the building, testing, and deployment of applications. It bridges the gap between development and operation activities.",2
+Technical,What is CI/CD?,"It makes the code go live automatically.",1
+Technical,What is CI/CD?,"It is a music player.",0
+Behavioral,Tell me about a time you had to say 'no' to a stakeholder.,"A product manager wanted to add a complex feature two days before code freeze. I explained that doing so would jeopardize the stability of the release and potentially introduce bugs. I proposed adding it to the very next sprint instead, and she agreed.",2
+Behavioral,Tell me about a time you had to say 'no' to a stakeholder.,"I told them we couldn't do it because we didn't have time.",1
+Behavioral,Tell me about a time you had to say 'no' to a stakeholder.,"I just didn't do it.",0
+Technical,What is the difference between a process and a thread?,"A process is an instance of a program in execution with its own memory space, while a thread is the smallest unit of execution within a process. Threads share the memory and resources of the process they belong to, making them more lightweight than processes.",2
+Technical,What is the difference between a process and a thread?,"Processes are big and threads are small.",1
+Technical,What is the difference between a process and a thread?,"A thread is for clothes.",0
+HR,What are your salary requirements?,"I am flexible, but based on the responsibilities of this role and my technical background, I am targeting a range of $85,000 to $95,000 annually.",2
+HR,What are your salary requirements?,"Whatever you pay is fine.",1
+HR,What are your salary requirements?,"I want to be paid in cash.",0
+Technical,What is SQL injection?,"SQL injection is a code injection technique where an attacker executes malicious SQL statements that control a web application's database server. It can be prevented by using prepared statements or parameterized queries.",2
+Technical,What is SQL injection?,"It is hacking the database.",1
+Technical,What is SQL injection?,"It is a medical shot.",0
+Behavioral,Describe a time you innovated.,"Our data processing script was taking 4 hours to run. I realized we were processing data sequentially. I rewrote the script using Python's multiprocessing library to run in parallel, which cut the runtime down to 45 minutes.",2
+Behavioral,Describe a time you innovated.,"I used a new font for the presentation.",1
+Behavioral,Describe a time you innovated.,"I invented the internet.",0
+Technical,What is a REST API?,"REST (Representational State Transfer) is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate. It typically uses standard HTTP methods like GET, POST, PUT, and DELETE.",2
+Technical,What is a REST API?,"It is a way for websites to talk.",1
+Technical,What is a REST API?,"It is when the API sleeps.",0
+HR,Why is there a gap in your resume?,"After my last role, I took a deliberate break to travel and recharge. During the last two months of that break, I focused on upskilling in Cloud Architecture and obtained my Azure certification to prepare for my next career step.",2
+HR,Why is there a gap in your resume?,"I couldn't find a job.",1
+HR,Why is there a gap in your resume?,"I was in jail.",0
+Technical,What is the 'final' keyword in Java?,"The 'final' keyword is a non-access modifier used to restrict the user. A final variable cannot be re-assigned, a final method cannot be overridden, and a final class cannot be extended (inherited).",2
+Technical,What is the 'final' keyword in Java?,"It means the code is done.",1
+Technical,What is the 'final' keyword in Java?,"It is the last line of code.",0
+Behavioral,How do you handle ambiguity in a project?,"I start by listing what is known and what is unknown. Then, I set up a meeting with stakeholders to clarify the requirements. If answers aren't immediately available, I make reasonable assumptions, document them, and proceed with a prototype to get feedback early.",2
+Behavioral,How do you handle ambiguity in a project?,"I wait for someone to tell me what to do.",1
+Behavioral,How do you handle ambiguity in a project?,"I guess and hope for the best.",0
+Technical,What is a linked list?,"A linked list is a linear data structure where elements are not stored in contiguous memory locations. Instead, each element (node) points to the next, consisting of data and a reference (link) to the next node.",2
+Technical,What is a linked list?,"It is a list of links.",1
+Technical,What is a linked list?,"It is a website menu.",0
+HR,What is your preferred management style?,"I prefer a manager who sets clear goals and expectations but gives me the autonomy to determine how to achieve them. I also value regular 1:1s for feedback and career development discussions.",2
+HR,What is your preferred management style?,"I like a boss who leaves me alone.",1
+HR,What is your preferred management style?,"I don't like managers.",0
+Technical,What is Docker Compose?,"Docker Compose is a tool for defining and running multi-container Docker applications. You use a YAML file to configure your application's services, and then with a single command, you create and start all the services from your configuration.",2
+Technical,What is Docker Compose?,"It helps run Docker containers.",1
+Technical,What is Docker Compose?,"It writes music.",0
+Behavioral,Tell me about a time you made a tough decision.,"We had to choose between two vendors. One was cheaper but had poor support; the other was expensive but reliable. I analyzed the long-term cost of potential downtime and convinced management to go with the more expensive, reliable vendor. It paid off when we had zero downtime during peak season.",2
+Behavioral,Tell me about a time you made a tough decision.,"I had to fire someone once.",1
+Behavioral,Tell me about a time you made a tough decision.,"Deciding what to eat for lunch.",0
+Technical,What is a singleton pattern?,"The Singleton pattern is a software design pattern that restricts the instantiation of a class to one 'single' instance. It is useful when exactly one object is needed to coordinate actions across the system, like a database connection pool.",2
+Technical,What is a singleton pattern?,"It means only one class exists.",1
+Technical,What is a singleton pattern?,"It is a dating app algorithm.",0
+HR,How soon can you join?,"I have a two-week notice period to serve at my current organization. I can join immediately after that is completed.",2
+HR,How soon can you join?,"Tomorrow.",1
+HR,How soon can you join?,"I don't know.",0
+Technical,What is recursion vs iteration?,"Recursion is when a function calls itself to solve a problem, while iteration uses loops (like for or while) to repeat a block of code. Recursion is often cleaner for tree traversals, while iteration is generally more memory efficient.",2
+Technical,What is recursion vs iteration?,"Recursion is a loop and iteration is a loop too.",1
+Technical,What is recursion vs iteration?,"They are opposites.",0
+Behavioral,Describe a time you worked with a cross-functional team.,"I worked with marketing and sales to launch a new product feature. I organized a weekly sync to ensure the technical implementation matched the marketing promises. This alignment prevented over-promising to customers and resulted in a successful launch.",2
+Behavioral,Describe a time you worked with a cross-functional team.,"I talked to the marketing guys once.",1
+Behavioral,Describe a time you worked with a cross-functional team.,"I stay in my lane.",0
+Technical,What is git merge vs git rebase?,"'Git merge' creates a new commit that combines the histories of two branches. 'Git rebase' moves the entire branch to begin on the tip of the upstream branch, creating a linear history. Rebase is cleaner but can be dangerous on shared branches.",2
+Technical,What is git merge vs git rebase?,"Merge combines code, rebase changes history.",1
+Technical,What is git merge vs git rebase?,"Rebase is for databases.",0
+HR,What do you know about our company?,"I know you recently acquired TechSoft to expand your AI capabilities. I've also read about your commitment to carbon neutrality by 2030, which I find very impressive. I'm excited about the direction you are taking in the fintech space.",2
+HR,What do you know about our company?,"You guys sell software.",1
+HR,What do you know about our company?,"I didn't check.",0
+Technical,What is polymorphism?,"Polymorphism in OOP allows objects of different classes to be treated as objects of a common superclass. It allows methods to do different things based on the object it is acting upon, typically achieved through method overriding or overloading.",2
+Technical,What is polymorphism?,"It means many shapes.",1
+Technical,What is polymorphism?,"It is a shape shifter.",0
+Behavioral,Tell me about a time you missed a deadline.,"I underestimated the time needed to debug a legacy codebase and missed a deadline by two days. I communicated the delay as soon as I realized it, worked extra hours to finish it, and then updated our estimation process to include a buffer for legacy code tasks.",2
+Behavioral,Tell me about a time you missed a deadline.,"I was late because the code was hard.",1
+Behavioral,Tell me about a time you missed a deadline.,"It wasn't my fault.",0
+Technical,What is an abstract class?,"An abstract class is a class that cannot be instantiated on its own and is meant to be subclassed. It can contain both abstract methods (without implementation) and concrete methods (with implementation).",2
+Technical,What is an abstract class?,"It is a class you can't use.",1
+Technical,What is an abstract class?,"It is a theoretical class.",0
+HR,Why do you want this job?,"I want this job because it perfectly intersects my experience in Python development with my interest in healthcare technology. I am eager to apply my skills to improve patient outcomes, which is the core mission of your team.",2
+HR,Why do you want this job?,"I need a job.",1
+HR,Why do you want this job?,"My parents told me to apply.",0
+Technical,What is the difference between TCP and UDP?,"TCP is connection-oriented and ensures reliable delivery and ordering of packets (good for web/email). UDP is connectionless and does not guarantee delivery (good for streaming/gaming where speed matters more than accuracy).",2
+Technical,What is the difference between TCP and UDP?,"TCP is safe, UDP is fast.",1
+Technical,What is the difference between TCP and UDP?,"UDP is for USB drives.",0
+Behavioral,How do you handle stress at work?,"I break complex tasks into smaller, manageable steps and prioritize them. I also make sure to take short breaks to clear my head. If the workload becomes unmanageable, I communicate with my manager to adjust priorities.",2
+Behavioral,How do you handle stress at work?,"I just work harder.",1
+Behavioral,How do you handle stress at work?,"I quit.",0
+Technical,What is a key-value store?,"A key-value store is a type of NoSQL database where data is stored as a collection of key-value pairs. It is highly performant for lookups and is often used for caching sessions or user preferences (e.g., Redis, DynamoDB).",2
+Technical,What is a key-value store?,"It stores keys and values.",1
+Technical,What is a key-value store?,"It is a store that sells keys.",0
+HR,What is your greatest strength?,"My greatest strength is my adaptability. In my last role, our tech stack changed from Java to Kotlin. I quickly learned the new language and became the go-to person for Kotlin best practices within two months.",2
+HR,What is your greatest strength?,"I am good at coding.",1
+HR,What is your greatest strength?,"Bench press.",0
+Technical,What is the purpose of the 'finally' block?,"The 'finally' block in exception handling is used to execute important code such as closing connections or releasing resources, regardless of whether an exception was handled or not. It always executes.",2
+Technical,What is the purpose of the 'finally' block?,"It is the end of the code.",1
+Technical,What is the purpose of the 'finally' block?,"It finishes the program.",0
+Behavioral,Describe a time you used persuasion.,"My team was hesitant to adopt unit testing due to tight deadlines. I persuaded them by running a pilot on a small module, which showed a 40% reduction in bugs during QA. The data convinced them to adopt it for the main project.",2
+Behavioral,Describe a time you used persuasion.,"I told them to do it my way.",1
+Behavioral,Describe a time you used persuasion.,"I yelled.",0
+Technical,What is a foreign key?,"A foreign key is a column or group of columns in a relational database table that provides a link between data in two tables. It acts as a cross-reference between tables because it references the primary key of another table.",2
+Technical,What is a foreign key?,"It links tables.",1
+Technical,What is a foreign key?,"It is a key from another server.",0
+HR,Where do you see yourself in 5 years?,"I see myself growing into a lead architect role. I want to have mastered cloud-native technologies and be in a position where I can mentor junior developers and drive technical strategy for the company.",2
+HR,Where do you see yourself in 5 years?,"In a better job.",1
+HR,Where do you see yourself in 5 years?,"Retired.",0
+Technical,What is encapsulation?,"Encapsulation is an OOP concept that bundles data (variables) and methods (functions) together within a class, and restricts direct access to some of an object's components. It protects the integrity of the data.",2
+Technical,What is encapsulation?,"It is putting code in a capsule.",1
+Technical,What is encapsulation?,"It is medication.",0
+Behavioral,Tell me about a conflict you had with a coworker.,"My coworker and I disagreed on the database schema design. We were at a stalemate, so we agreed to whiteboard both solutions and list the pros and cons. We realized a hybrid approach worked best, and we implemented that successfully.",2
+Behavioral,Tell me about a conflict you had with a coworker.,"We argued about code.",1
+Behavioral,Tell me about a conflict you had with a coworker.,"I don't have conflicts.",0
+Technical,What is dependency injection?,"Dependency Injection is a design pattern where an object receives other objects that it depends on (dependencies) from an external source, rather than creating them itself. This promotes loose coupling and easier testing.",2
+Technical,What is dependency injection?,"It is injecting code.",1
+Technical,What is dependency injection?,"It is a virus.",0
+HR,What motivates you?,"I am motivated by solving complex problems that have a tangible impact on users. Seeing a feature I built being used to solve a real-world issue gives me a great sense of accomplishment.",2
+HR,What motivates you?,"Money.",1
+HR,What motivates you?,"Going home.",0
+Technical,What is the difference between a list and a set?,"A list is an ordered collection of elements that allows duplicates. A set is an unordered collection of unique elements; it does not allow duplicates.",2
+Technical,What is the difference between a list and a set?,"Lists are ordered, sets are not.",1
+Technical,What is the difference between a list and a set?,"They are the same.",0
+Technical,What is the Global Interpreter Lock (GIL) in Python?,"The GIL is a mutex that allows only one thread to hold the control of the Python interpreter. This means that only one thread can be in a state of execution at any point in time. The impact of the GIL isn't visible to developers who execute single-threaded programs, but it can be a performance bottleneck in CPU-bound and multi-threaded code.",2
+Technical,What is the Global Interpreter Lock (GIL) in Python?,"It locks the interpreter so only one thing runs at a time.",1
+Technical,What is the Global Interpreter Lock (GIL) in Python?,"It is a security lock for the code.",0
+HR,How do you handle tight deadlines?,"I prioritize my tasks using the MoSCoW method (Must have, Should have, Could have, Won't have). I communicate early with stakeholders if I foresee any risks to the critical path, and I focus on delivering a Minimum Viable Product (MVP) first to ensure the core value is delivered on time.",2
+HR,How do you handle tight deadlines?,"I just work faster and stay late.",1
+HR,How do you handle tight deadlines?,"I hate deadlines.",0
+Behavioral,Describe a time you solved a conflict within your team.,"Two developers on my team were arguing about which framework to use. I facilitated a meeting where we listed the pros and cons of each relative to our specific project requirements. We realized that neither was perfect, but one had better long-term support. We agreed to move forward with that one, and the team aligned behind the decision.",2
+Behavioral,Describe a time you solved a conflict within your team.,"I told them to stop fighting and just pick one.",1
+Behavioral,Describe a time you solved a conflict within your team.,"I ignored it.",0
+Technical,What is the difference between a process and a thread?,"A process is an instance of a computer program that is being executed. It contains the program code and its current activity. A thread is the smallest unit of processing that can be performed in an OS. Threads exist within a process and share the process's resources, whereas processes are independent.",2
+Technical,What is the difference between a process and a thread?,"Threads are smaller than processes.",1
+Technical,What is the difference between a process and a thread?,"A thread is for sewing.",0
+HR,Why do you want to leave your current role?,"I've learned a lot about legacy systems in my current role, but I'm looking to transition into a more cloud-native environment. Your company's use of Kubernetes and microservices is exactly the direction I want to take my career.",2
+HR,Why do you want to leave your current role?,"I'm bored.",1
+HR,Why do you want to leave your current role?,"My boss is a nightmare.",0
+Technical,What is a closure in JavaScript?,"A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function.",2
+Technical,What is a closure in JavaScript?,"It is a function inside another function.",1
+Technical,What is a closure in JavaScript?,"It closes the browser window.",0
+Behavioral,Tell me about a time you failed to meet a goal.,"I missed a quarterly sales target because I spent too much time on a few large prospects that didn't convert. I learned to diversify my pipeline and not rely on 'whales.' The next quarter, I focused on a higher volume of mid-sized deals and exceeded my target by 15%.",2
+Behavioral,Tell me about a time you failed to meet a goal.,"I didn't hit my numbers once. It happens.",1
+Behavioral,Tell me about a time you failed to meet a goal.,"I never fail.",0
+Technical,What is the difference between UNION and UNION ALL in SQL?,"UNION combines the result set of two or more SELECT statements and removes duplicate rows. UNION ALL does the same but includes all duplicates. Because UNION requires a distinct sort to remove duplicates, UNION ALL is generally faster.",2
+Technical,What is the difference between UNION and UNION ALL in SQL?,"One removes duplicates and the other keeps them.",1
+Technical,What is the difference between UNION and UNION ALL in SQL?,"They are the same command.",0
+HR,What is your expected salary?,"Based on the market rate for a Senior Engineer in this city and my 6 years of experience, I am looking for a base salary in the range of $110,000 to $120,000, negotiable based on the total compensation package.",2
+HR,What is your expected salary?,"Around $100k.",1
+HR,What is your expected salary?,"I want a lot of money.",0
+Technical,Explain the concept of 'hoisting' in JavaScript.,"Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope (script or function) before code execution. This means a variable can be used before it has been declared, although only the declaration is hoisted, not the initialization.",2
+Technical,Explain the concept of 'hoisting' in JavaScript.,"It moves variables to the top.",1
+Technical,Explain the concept of 'hoisting' in JavaScript.,"It lifts the code up.",0
+Behavioral,Describe a situation where you showed initiative.,"We were spending hours every week manually generating reports. I took the initiative to write a Python script that pulled the data from the API and generated the PDF automatically. This saved the team about 5 hours per week.",2
+Behavioral,Describe a situation where you showed initiative.,"I did my work without being asked.",1
+Behavioral,Describe a situation where you showed initiative.,"I showed up on time.",0
+Technical,What is the purpose of the 'transient' keyword in Java?,"The 'transient' keyword is used in serialization. If you define any data member as transient, it will not be serialized. This is useful for security (like passwords) or for fields that can be derived from other fields.",2
+Technical,What is the purpose of the 'transient' keyword in Java?,"It makes the variable temporary.",1
+Technical,What is the purpose of the 'transient' keyword in Java?,"It makes the code invisible.",0
+HR,What are your weaknesses?,"I sometimes struggle with public speaking. To improve, I joined a local Toastmasters club and have been volunteering to present our sprint demos. I'm getting much more comfortable with it now.",2
+HR,What are your weaknesses?,"I work too hard.",1
+HR,What are your weaknesses?,"I have a bad temper.",0
+Technical,What is an IP address?,"An IP (Internet Protocol) address is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication. It serves two main functions: host or network interface identification and location addressing.",2
+Technical,What is an IP address?,"It is your computer's phone number.",1
+Technical,What is an IP address?,"It is the internet password.",0
+Behavioral,How do you handle a colleague who is underperforming?,"I would first check in with them to see if they are facing any blockers or personal issues. If I'm their lead, I would set clear, measurable goals and offer support or pairing sessions. If the behavior continues, I would escalate it to management with documentation.",2
+Behavioral,How do you handle a colleague who is underperforming?,"I tell them to work harder.",1
+Behavioral,How do you handle a colleague who is underperforming?,"I complain to the boss.",0
+Technical,What is the difference between a clustered and non-clustered index?,"A clustered index determines the physical order of data in a table; a table can have only one clustered index. A non-clustered index is stored separately from the data rows and contains pointers to the data; a table can have multiple non-clustered indices.",2
+Technical,What is the difference between a clustered and non-clustered index?,"Clustered is sorted, non-clustered is not.",1
+Technical,What is the difference between a clustered and non-clustered index?,"One is a cluster and one is not.",0
+HR,Why should we hire you?,"I bring a unique combination of frontend expertise and UX design principles. In my last role, this dual skillset allowed me to reduce the feedback loop between design and engineering by 30%, resulting in faster product iterations.",2
+HR,Why should we hire you?,"I am a good coder.",1
+HR,Why should we hire you?,"Because I applied.",0
+Technical,What is a semantic HTML element?,"Semantic HTML elements clearly describe their meaning in a human- and machine-readable way. Examples include <header>, <footer>, and <article>, as opposed to non-semantic elements like <div> and <span>. They improve accessibility and SEO.",2
+Technical,What is a semantic HTML element?,"It is a tag with a name.",1
+Technical,What is a semantic HTML element?,"It is a difficult HTML tag.",0
+Behavioral,Tell me about a time you had to learn a new technology quickly.,"My company decided to switch from Jenkins to GitHub Actions for CI/CD. I spent the weekend reading the documentation and created a proof-of-concept pipeline. By Monday, I was able to demonstrate it to the team and we began the migration the following week.",2
+Behavioral,Tell me about a time you had to learn a new technology quickly.,"I learned Java in college.",1
+Behavioral,Tell me about a time you had to learn a new technology quickly.,"I don't like learning new things.",0
+Technical,What is the difference between checked and unchecked exceptions in Java?,"Checked exceptions are checked at compile-time (e.g., IOException) and must be handled using try-catch or declared in the method signature. Unchecked exceptions occur at runtime (e.g., NullPointerException) and are not required to be explicitly handled.",2
+Technical,What is the difference between checked and unchecked exceptions in Java?,"Checked implies you catch them, unchecked implies you don't.",1
+Technical,What is the difference between checked and unchecked exceptions in Java?,"Checked means the code is correct.",0
+HR,How do you stay organized?,"I use a combination of a digital calendar for meetings and a Kanban board (Trello) for task management. I review my board every morning to set my top 3 priorities for the day.",2
+HR,How do you stay organized?,"I use a to-do list.",1
+HR,How do you stay organized?,"I remember everything in my head.",0
+Technical,What is the purpose of the 'volatile' keyword in Java?,"The 'volatile' keyword indicates that a variable's value will be modified by different threads. It ensures that the value of the variable is always read from the main memory, not from the thread's local cache, guaranteeing visibility of changes across threads.",2
+Technical,What is the purpose of the 'volatile' keyword in Java?,"It means the variable changes a lot.",1
+Technical,What is the purpose of the 'volatile' keyword in Java?,"It makes the variable dangerous.",0
+Behavioral,Describe a time you had to persuade a stakeholder.,"The client wanted a feature that would compromise security. I explained the risks clearly, using a metaphor they understood, and proposed a secure alternative that achieved 90% of their goal. They appreciated the guidance and accepted the alternative.",2
+Behavioral,Describe a time you had to persuade a stakeholder.,"I told them their idea was bad.",1
+Behavioral,Describe a time you had to persuade a stakeholder.,"I just did what they asked.",0
+Technical,What is a promise in JavaScript?,"A Promise is an object representing the eventual completion or failure of an asynchronous operation. It allows you to attach callbacks (with .then and .catch) to handle the result when it becomes available, avoiding 'callback hell'.",2
+Technical,What is a promise in JavaScript?,"It guarantees code will run.",1
+Technical,What is a promise in JavaScript?,"It is a pinky swear.",0
+HR,What acts as a demotivator for you?,"Lack of clear direction or constantly shifting goalposts without explanation can be demotivating. I thrive when I understand the 'why' behind our work and have a stable target to aim for.",2
+HR,What acts as a demotivator for you?,"Boring work.",1
+HR,What acts as a demotivator for you?,"Working.",0
+Technical,What is data normalization?,"Data normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. It involves dividing large tables into smaller, related tables (1NF, 2NF, 3NF) to ensure dependencies are logical.",2
+Technical,What is data normalization?,"It makes the data normal.",1
+Technical,What is data normalization?,"It cleans the text.",0
+Behavioral,Tell me about a time you worked with a difficult person.,"I had a teammate who was very critical of my code. I realized he was a perfectionist. I started asking for his input earlier in the design phase. This made him feel involved and respected, and his feedback became much more constructive and less combative.",2
+Behavioral,Tell me about a time you worked with a difficult person.,"I ignored him.",1
+Behavioral,Tell me about a time you worked with a difficult person.,"I got him fired.",0
+Technical,What is the difference between shallow copy and deep copy?,"A shallow copy creates a new object but inserts references into it to the objects found in the original. A deep copy creates a new object and recursively copies the objects found in the original, meaning changes to the new object do not affect the original.",2
+Technical,What is the difference between shallow copy and deep copy?,"Deep copy copies everything, shallow copy copies some things.",1
+Technical,What is the difference between shallow copy and deep copy?,"Shallow copy is faster.",0
+HR,Where do you see yourself in 5 years?,"I aim to be a Technical Lead. I want to have deep expertise in distributed systems and be responsible for mentoring junior engineers, helping them grow just as my mentors helped me.",2
+HR,Where do you see yourself in 5 years?,"In a better job.",1
+HR,Where do you see yourself in 5 years?,"On a beach.",0
+Technical,What is an abstract class in C++?,"An abstract class in C++ is a class that contains at least one pure virtual function (declared with '= 0'). It cannot be instantiated and is designed to be a base class for other classes to inherit from.",2
+Technical,What is an abstract class in C++?,"It is a class you can't use directly.",1
+Technical,What is an abstract class in C++?,"It is a thought.",0
+Behavioral,Give an example of a time you managed a conflict.,"During a project, two team members disagreed on the database schema. I organized a meeting where we whiteboarded both approaches and evaluated them against our scalability requirements. We found a hybrid solution that satisfied both concerns.",2
+Behavioral,Give an example of a time you managed a conflict.,"I told them to compromise.",1
+Behavioral,Give an example of a time you managed a conflict.,"I let them fight it out.",0
+Technical,What is the purpose of the virtual DOM in React?,"The virtual DOM is a lightweight copy of the actual DOM. When state changes, React updates the virtual DOM first, compares it to the previous version (diffing), and then only updates the specific changed elements in the real DOM. This improves performance.",2
+Technical,What is the purpose of the virtual DOM in React?,"It makes React faster.",1
+Technical,What is the purpose of the virtual DOM in React?,"It is a fake website.",0
+HR,What is your greatest strength?,"My ability to translate technical concepts for non-technical stakeholders. In my last role, this helped secure budget approval for a refactoring project because I could explain the business risks of technical debt clearly to the CFO.",2
+HR,What is your greatest strength?,"I code fast.",1
+HR,What is your greatest strength?,"I can lift heavy things.",0
+Technical,What is Dependency Injection?,"Dependency Injection is a design pattern where a class's dependencies are provided from the outside rather than created internally. This promotes loose coupling and makes the code easier to test and maintain.",2
+Technical,What is Dependency Injection?,"It injects code into the class.",1
+Technical,What is Dependency Injection?,"It is a medical term.",0
+Behavioral,Tell me about a time you made a mistake.,"I once pushed a configuration change to production that caused a brief outage. I immediately rolled back the change, then conducted a post-mortem to understand why our testing environment didn't catch it. We added a new automated test case to prevent recurrence.",2
+Behavioral,Tell me about a time you made a mistake.,"I broke the build once.",1
+Behavioral,Tell me about a time you made a mistake.,"I don't make mistakes.",0
+Technical,What is the difference between a stack and a heap?,"The stack is used for static memory allocation and execution of threads (local variables, function calls). The heap is used for dynamic memory allocation where variables are stored globally. Stack access is faster than heap access.",2
+Technical,What is the difference between a stack and a heap?,"Stack is organized, heap is messy.",1
+Technical,What is the difference between a stack and a heap?,"They are data structures.",0
+HR,Do you have any questions for us?,"Yes, I'm curious about the team structure. How does the engineering team collaborate with the product team during the roadmap planning phase?",2
+HR,Do you have any questions for us?,"What are the perks?",1
+HR,Do you have any questions for us?,"No.",0
+Technical,What is a layout manager in Java Swing?,"A layout manager is an interface that handles the arrangement of components within a container. Examples include BorderLayout, FlowLayout, and GridLayout. It ensures the GUI adjusts correctly when the window is resized.",2
+Technical,What is a layout manager in Java Swing?,"It arranges the buttons.",1
+Technical,What is a layout manager in Java Swing?,"It manages the layout.",0
+Behavioral,Describe a time you went above and beyond.,"A customer was having a critical issue on a Friday evening. Although support was officially closed, I stayed online, debugged the issue, and provided a patch. The customer later renewed their contract specifically citing that support experience.",2
+Behavioral,Describe a time you went above and beyond.,"I worked late once.",1
+Behavioral,Describe a time you went above and beyond.,"I did my job.",0
+Technical,What is polymorphism?,"Polymorphism allows objects of different classes to be treated as objects of a common superclass. It enables a single interface to control access to a general class of actions. For example, a 'Shape' class can have a 'draw' method that behaves differently for 'Circle' and 'Square'.",2
+Technical,What is polymorphism?,"It means many forms.",1
+Technical,What is polymorphism?,"It changes the code shape.",0
+HR,What motivates you?,"I'm motivated by solving complex problems. There's a specific satisfaction in taking a broken or inefficient system, debugging it, and optimizing it to run smoothly.",2
+HR,What motivates you?,"Money.",1
+HR,What motivates you?,"Nothing really.",0
+Technical,What is CRUD?,"CRUD stands for Create, Read, Update, and Delete. These are the four basic operations of persistent storage. In SQL, they map to INSERT, SELECT, UPDATE, and DELETE.",2
+Technical,What is CRUD?,"It stands for Create Read Update Delete.",1
+Technical,What is CRUD?,"It is dirt.",0
+Behavioral,Tell me about a time you had to adapt to a big change.,"Our company was acquired, and we had to switch our entire tech stack from .NET to Java. I embraced the challenge, took an evening course on Java, and helped my teammates migrate our core services within three months.",2
+Behavioral,Tell me about a time you had to adapt to a big change.,"I had to learn a new language.",1
+Behavioral,Tell me about a time you had to adapt to a big change.,"I quit.",0
+Technical,What is the purpose of the 'static' keyword in C?,"In C, 'static' limits the scope of a global variable to the file it is declared in, preventing it from being accessed by other files. Inside a function, 'static' allows a variable to retain its value between function calls.",2
+Technical,What is the purpose of the 'static' keyword in C?,"It makes the variable stay the same.",1
+Technical,What is the purpose of the 'static' keyword in C?,"It stops the code from moving.",0
+HR,How do you define success?,"I define success as delivering high-quality work that meets the user's needs while maintaining a healthy, collaborative team environment. If the client is happy and the team grew from the experience, that is success.",2
+HR,How do you define success?,"Getting the job done.",1
+HR,How do you define success?,"Making money.",0
+Technical,What is a decorators in Python?,"A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. It is usually a function that takes another function as an argument and extends its behavior.",2
+Technical,What is a decorators in Python?,"It decorates the code.",1
+Technical,What is a decorators in Python?,"It makes the code look pretty.",0
+Behavioral,Describe a time you used data to make a decision.,"We debated whether to support IE11. I pulled the analytics and showed that only 0.5% of our traffic came from IE11, but it cost us 20% of dev time. Based on this data, we decided to drop support and focus on modern features.",2
+Behavioral,Describe a time you used data to make a decision.,"I looked at the charts and decided.",1
+Behavioral,Describe a time you used data to make a decision.,"I guessed.",0
+Technical,What is an interface?,"An interface is a contract in OOP that defines a set of methods that a class must implement. It does not contain any implementation logic (in most languages), ensuring that different classes can be used interchangeably if they implement the same interface.",2
+Technical,What is an interface?,"It is the screen you see.",1
+Technical,What is an interface?,"It connects things.",0
+HR,Why is there a gap in your resume?,"I took a six-month sabbatical to travel and recharge. During that time, I also completed a certification in AWS Solutions Architecture to prepare for my next role.",2
+HR,Why is there a gap in your resume?,"I was unemployed.",1
+HR,Why is there a gap in your resume?,"None of your business.",0
+Technical,What is the difference between TCP and UDP?,"TCP is connection-oriented and reliable, ensuring data arrives in order (e.g., for web pages). UDP is connectionless and unreliable but faster, used for real-time applications like streaming where a few lost packets don't matter.",2
+Technical,What is the difference between TCP and UDP?,"TCP is slower.",1
+Technical,What is the difference between TCP and UDP?,"UDP is a connector.",0
+Behavioral,How do you handle ambiguous requirements?,"I schedule a meeting with the product owner to clarify the goals. I ask questions to identify the core problem and then propose a prototype or wireframe to validate my understanding before writing any production code.",2
+Behavioral,How do you handle ambiguous requirements?,"I just start coding and hope for the best.",1
+Behavioral,How do you handle ambiguous requirements?,"I wait for better instructions.",0
+Technical,What is garbage collection?,"Garbage collection is an automatic memory management feature that finds and frees up memory that is no longer being used by the program (i.e., objects with no references), preventing memory leaks.",2
+Technical,What is garbage collection?,"It cleans up the code.",1
+Technical,What is garbage collection?,"It removes trash files.",0
+HR,What is your ideal work environment?,"I thrive in a collaborative environment where open communication is encouraged. I value a mix of deep-focus time for coding and team brainstorming sessions for architectural planning.",2
+HR,What is your ideal work environment?,"Quiet.",1
+HR,What is your ideal work environment?,"My bed.",0
+Technical,What is a linked list?,"A linked list is a linear data structure where elements are not stored in contiguous memory locations. Each element, or node, contains a data field and a reference (link) to the next node in the sequence.",2
+Technical,What is a linked list?,"It is a list of links.",1
+Technical,What is a linked list?,"It is a chain.",0
+Behavioral,Tell me about a time you delegated a task.,"I was leading a project and realized I was the bottleneck for the UI work. I delegated the frontend components to a junior developer, providing clear wireframes and checking in daily. This allowed him to grow his skills and allowed me to focus on the backend integration.",2
+Behavioral,Tell me about a time you delegated a task.,"I gave the easy work to the new guy.",1
+Behavioral,Tell me about a time you delegated a task.,"I made someone else do it.",0
+Technical,What is recursion?,"Recursion is a programming technique where a function calls itself to solve a problem. It requires a base case to stop the infinite loop. It is often used for traversing tree structures or solving mathematical problems like factorials.",2
+Technical,What is recursion?,"It is a loop.",1
+Technical,What is recursion?,"It is when code repeats.",0
+HR,What are you looking for in a new position?,"I am looking for a role that challenges me technically, specifically in the area of distributed systems. I also value a company culture that invests in employee growth through mentorship and training.",2
+HR,What are you looking for in a new position?,"More money.",1
+HR,What are you looking for in a new position?,"A job.",0
+Technical,What is SQL Injection?,"SQL injection is a security vulnerability where an attacker interferes with the queries an application makes to its database. It allows an attacker to view or modify data they shouldn't be able to access. It is prevented by using prepared statements.",2
+Technical,What is SQL Injection?,"It is hacking a database.",1
+Technical,What is SQL Injection?,"It is a virus.",0
+Behavioral,Describe a time you had to compromise.,"I wanted to use a graph database for a new feature, but the DevOps team was concerned about the maintenance overhead. I compromised by using a recursive query structure in our existing relational database, which solved the problem without adding new infrastructure.",2
+Behavioral,Describe a time you had to compromise.,"I let them win.",1
+Behavioral,Describe a time you had to compromise.,"I gave up.",0
+Technical,What is the 'this' keyword?,"In many languages like Java or JavaScript, 'this' refers to the current instance of the class or object. It is used to access members (methods or variables) of the current object from within that object.",2
+Technical,What is the 'this' keyword?,"It points to this thing.",1
+Technical,What is the 'this' keyword?,"It is a word.",0
+HR,How do you handle stress?,"I step away from the keyboard for a short walk to clear my head. I also break down the stressful task into smaller, manageable lists so I can tackle them one by one.",2
+HR,How do you handle stress?,"I just work through it.",1
+HR,How do you handle stress?,"I panic.",0
+Technical,What is Docker?,"Docker is a platform that uses OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries, and configuration files.",2
+Technical,What is Docker?,"It is a virtual machine.",1
+Technical,What is Docker?,"It is a whale.",0
+Behavioral,Tell me about a time you disagreed with a boss.,"My manager wanted to launch a feature without mobile support. I presented data showing 60% of our users access the site via mobile. He agreed to delay the launch by one week to ensure the mobile experience was ready.",2
+Behavioral,Tell me about a time you disagreed with a boss.,"I told him he was wrong.",1
+Behavioral,Tell me about a time you disagreed with a boss.,"I ignored him.",0
+Technical,What is a Hash Map?,"A Hash Map is a data structure that implements an associative array abstract data type, a structure that can map keys to values. It uses a hash function to compute an index into an array of buckets or slots.",2
+Technical,What is a Hash Map?,"It maps keys to values.",1
+Technical,What is a Hash Map?,"It is a map.",0
+HR,What is your notice period?,"I have a standard two-week notice period. I am committed to documenting my work and ensuring a smooth transition for my team before I leave.",2
+HR,What is your notice period?,"Two weeks.",1
+HR,What is your notice period?,"I can leave now.",0
+Technical,What is unit testing?,"Unit testing is a software testing method where individual units or components of a software are tested. The purpose is to validate that each unit of the software code performs as expected.",2
+Technical,What is unit testing?,"It is testing code.",1
+Technical,What is unit testing?,"It is a test.",0
+Behavioral,Describe a time you made a tough decision.,"I had to decide between fixing a bug that affected 1% of users or building a new feature promised to a major client. I chose to build the feature to secure the contract, but I scheduled the bug fix for the immediate next sprint and communicated this transparency to the affected users.",2
+Behavioral,Describe a time you made a tough decision.,"I flipped a coin.",1
+Behavioral,Describe a time you made a tough decision.,"I don't know.",0
+Technical,What is the MVC pattern?,"MVC stands for Model-View-Controller. It is an architectural pattern that separates an application into three main logical components: the Model (data), the View (user interface), and the Controller (logic that handles inputs).",2
+Technical,What is the MVC pattern?,"It organizes code into three parts.",1
+Technical,What is the MVC pattern?,"It is a design style.",0
+HR,How do you prioritize work?,"I use the Eisenhower Matrix to categorize tasks by urgency and importance. I focus on high-impact, urgent tasks first, and I'm not afraid to delegate or reschedule lower-priority items.",2
+HR,How do you prioritize work?,"I do the easy stuff first.",1
+HR,What are three words your friends would use to describe you?,"loyal, tenacious, and funny.",2
+HR,How do you prioritize work?,"I guess.",0
+Technical,What is Git?,"Git is a distributed version control system used to track changes in source code during software development. It supports non-linear workflows and allows multiple developers to work on the same project simultaneously.",2
+Technical,What is Git?,"It saves your code.",1
+Technical,What is Git?,"It is GitHub.",0
+Behavioral,Tell me about a time you worked under pressure.,"We had a critical server crash during a Black Friday sale. The pressure was immense. I organized a war room, assigned roles to each team member to check different logs, and we identified and fixed the issue within 15 minutes.",2
+Behavioral,Tell me about a time you worked under pressure.,"I worked fast.",1
+Behavioral,Tell me about a time you worked under pressure.,"I cried.",0
+Technical,What is API?,"API stands for Application Programming Interface. It is a set of definitions and protocols for building and integrating application software. It allows two applications to talk to each other.",2
+Technical,What is API?,"It lets programs talk.",1
+Technical,What is API?,"It is code.",0
+HR,What are your salary expectations?,"I am looking for a range between $90,000 and $100,000, depending on the benefits package.",2
+HR,What are your salary expectations?,"Market rate.",1
+HR,What are your salary expectations?,"A million dollars.",0
+Technical,What is Big O notation?,"Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity. In CS, it's used to classify algorithms according to how their run time or space requirements grow as the input size grows.",2
+Technical,What is Big O notation?,"It measures speed.",1
+Technical,What is Big O notation?,"It is a big letter O.",0
+Behavioral,Describe a time you learned from a mistake.,"Early in my career, I didn't document my code well, which made onboarding a new hire difficult. I realized the importance of documentation. Now, I treat documentation as part of the Definition of Done for any task.",2
+Behavioral,Describe a time you learned from a mistake.,"I write better code now.",1
+Behavioral,Describe a time you learned from a mistake.,"I don't make mistakes.",0
+Technical,What is a constructor?,"A constructor is a special method of a class or structure in object-oriented programming that initializes an object of that type. It sets the initial values for the object's member variables.",2
+Technical,What is a constructor?,"It builds the object.",1
+Technical,What is a constructor?,"It constructs things.",0
+HR,Why do you want to work here?,"I've followed your company's work in renewable energy for years. I want to use my software skills to contribute to a mission I believe in.",2
+HR,Why do you want to work here?,"It seems like a cool place.",1
+HR,Why do you want to work here?,"I need a paycheck.",0
+Technical,What is JSON?,"JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write and easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language.",2
+Technical,What is JSON?,"It is a data format.",1
+Technical,What is JSON?,"It is a person.",0
+Behavioral,Tell me about a time you helped a coworker.,"A colleague was struggling to debug a race condition. I paused my own work to pair program with them. We traced the logs together and found the issue. I then shared some tools I use for debugging concurrency issues so they could handle it next time.",2
+Behavioral,Tell me about a time you helped a coworker.,"I answered their question.",1
+Behavioral,Tell me about a time you helped a coworker.,"I did their work for them.",0
+Technical,What is inheritance in OOP?,"Inheritance is a mechanism in which one class acquires the property of another class. It supports the concept of hierarchical classification and promotes code reusability.",2
+Technical,What is inheritance in OOP?,"It is using code from another class.",1
+Technical,What is inheritance in OOP?,"It is getting money.",0
+HR,What are your career goals?,"I want to progress from a Senior Developer to a Solution Architect. I am interested in designing large-scale systems and solving high-level architectural challenges.",2
+HR,What are your career goals?,"To get promoted.",1
+HR,What are your career goals?,"To retire.",0
+Technical,What is CSS specificity?,"Specificity is the means by which browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied. It is based on the matching rules composed of different types of CSS selectors.",2
+Technical,What is CSS specificity?,"It decides which style wins.",1
+Technical,What is CSS specificity?,"It is specific code.",0
+Behavioral,Describe a time you had to pivot strategy.,"We were building a mobile app, but user testing showed people preferred a web interface. We pivoted the roadmap, halted mobile dev, and reallocated resources to the web team. It was a tough call but resulted in much higher adoption rates.",2
+Behavioral,Describe a time you had to pivot strategy.,"We changed plans.",1
+Behavioral,Describe a time you had to pivot strategy.,"I don't change plans.",0
+Technical,What is a binary tree?,"A binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child.",2
+Technical,What is a binary tree?,"It is a tree with two branches.",1
+Technical,What is a binary tree?,"It is nature.",0
+HR,How do you handle boredom?,"I use downtime to refactor old code, update documentation, or learn a new tool that could benefit the team. There is always something that can be improved.",2
+HR,How do you handle boredom?,"I browse the internet.",1
+HR,How do you handle boredom?,"I sleep.",0
+Technical,What is load balancing?,"Load balancing is the process of distributing network traffic across multiple servers. This ensures no single server bears too much demand, improving application responsiveness and availability.",2
+Technical,What is load balancing?,"It balances the servers.",1
+Technical,What is load balancing?,"It weighs the data.",0
+Behavioral,Tell me about a time you persuaded someone.,"My product manager wanted to use a specific library that was no longer maintained. I researched alternatives and presented a comparison table showing security risks versus the benefits of a modern library. He was convinced and we went with the modern option.",2
+Behavioral,Tell me about a time you persuaded someone.,"I argued until they agreed.",1
+Behavioral,Tell me about a time you persuaded someone.,"I forced them.",0
+Technical,What is a REST API?,"REST (Representational State Transfer) is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other.",2
+Technical,What is a REST API?,"It is a web link.",1
+Technical,What is a REST API?,"It is for resting.",0
+HR,What is your availability?,"I can start immediately after my two-week notice period.",2
+HR,What is your availability?,"Soon.",1
+HR,What is your availability?,"Now.",0
+Technical,What is a microservice?,"Microservices is an architectural style that structures an application as a collection of services that are highly maintainable and testable, loosely coupled, independently deployable, and organized around business capabilities.",2
+Technical,What is a microservice?,"It is a small program.",1
+Technical,What is a microservice?,"It is a tiny computer.",0
+Behavioral,Describe a time you took ownership.,"We discovered a data leak on a Sunday. Although I wasn't on call, I jumped online, patched the vulnerability, and wrote the incident report for the team to review on Monday. I wanted to ensure our users were safe.",2
+Behavioral,Describe a time you took ownership.,"I fixed a bug.",1
+Behavioral,Describe a time you took ownership.,"It wasn't my job.",0
+Technical,What is ACID in databases?,"ACID stands for Atomicity, Consistency, Isolation, and Durability. These properties ensure that database transactions are processed reliably.",2
+Technical,What is ACID in databases?,"It stands for Atomicity and other things.",1
+Technical,What is ACID in databases?,"It is a chemical.",0
+HR,What is your biggest failure?,"I once underestimated the complexity of a migration project, which led to a 2-week delay. I apologized to the stakeholders and created a new estimation framework that we still use today to prevent that from happening again.",2
+HR,What is your biggest failure?,"I was late once.",1
+HR,What is your biggest failure?,"I don't fail.",0
+Technical,What is a lambda function?,"A lambda function is a small anonymous function. In Python, it can take any number of arguments, but can only have one expression.",2
+Technical,What is a lambda function?,"It is a short function.",1
+Technical,What is a lambda function?,"It is a Greek letter.",0
+Behavioral,Tell me about a time you worked with a diverse team.,"I worked on a global project with team members in India, London, and New York. I learned to be mindful of time zones and cultural communication differences, which helped us collaborate effectively despite the distance.",2
+Behavioral,Tell me about a time you worked with a diverse team.,"I worked with people from other places.",1
+Behavioral,Tell me about a time you worked with a diverse team.,"I don't notice differences.",0
+Technical,What is a foreign key?,"A foreign key is a field (or collection of fields) in one table that refers to the primary key in another table. It is used to prevent actions that would destroy links between tables.",2
+Technical,What is a foreign key?,"It links tables.",1
+Technical,What is a foreign key?,"It is a key from abroad.",0
+HR,Who is your role model?,"I admire Satya Nadella for his empathy-led leadership style and how he transformed Microsoft's culture.",2
+HR,Who is your role model?,"Steve Jobs.",1
+HR,Who is your role model?,"Batman.",0
+Technical,What is Continuous Integration?,"Continuous Integration (CI) is the practice of merging all developers' working copies to a shared mainline several times a day. It involves automated builds and tests to detect integration errors as quickly as possible.",2
+Technical,What is Continuous Integration?,"It merges code often.",1
+Technical,What is Continuous Integration?,"It combines things.",0
+Behavioral,Describe a time you had to deliver bad news.,"I had to tell a client that their custom feature wouldn't be ready for the launch. I called them personally, explained the technical blockers, and offered a reduced-scope version that could be ready on time. They appreciated the transparency.",2
+Behavioral,Describe a time you had to deliver bad news.,"I sent an email.",1
+Behavioral,Describe a time you had to deliver bad news.,"I hid.",0
+Technical,What is a deadlock?,"A deadlock is a situation in concurrent computing where two or more processes are blocked because each is waiting for the other to release a resource.",2
+Technical,What is a deadlock?,"It is when the computer freezes.",1
+Technical,What is a deadlock?,"It is a broken lock.",0
+HR,How do you handle criticism?,"I view criticism as a tool for growth. I listen actively, ask clarifying questions, and thank the person for their feedback. Then I work on a plan to improve.",2
+HR,How do you handle criticism?,"I take it okay.",1
+HR,How do you handle criticism?,"I get mad.",0
+Technical,What is NoSQL?,"NoSQL databases are non-tabular databases and store data differently than relational tables. They come in a variety of types based on their data model, including documents, key-values, and graphs.",2
+Technical,What is NoSQL?,"It is not SQL.",1
+Technical,What is NoSQL?,"It is a fast database.",0
+Behavioral,Tell me about a time you improved a process.,"Our onboarding process took 3 days. I created a wiki with setup scripts and documentation. This reduced onboarding time to 4 hours.",2
+Behavioral,Tell me about a time you improved a process.,"I wrote some docs.",1
+Behavioral,Tell me about a time you improved a process.,"I didn't change anything.",0
+Technical,What is a singleton?,"The singleton pattern is a software design pattern that restricts the instantiation of a class to one 'single' instance.",2
+Technical,What is a singleton?,"It is a single object.",1
+Technical,What is a singleton?,"It is being single.",0
+HR,Why are you the best candidate?,"My combination of technical skills in Python and my leadership experience makes me a perfect fit. I can write the code, but I can also mentor the juniors you are looking to hire.",2
+HR,Why are you the best candidate?,"I am good.",1
+HR,Why are you the best candidate?,"Please hire me.",0
+Technical,What is encapsulation?,"Encapsulation is the packing of data and functions into a single component. It allows selective hiding of properties and methods in an object.",2
+Technical,What is encapsulation?,"It hides code.",1
+Technical,What is encapsulation?,"It is a capsule.",0
+Behavioral,Describe a time you were creative.,"We had a limited budget for user testing. I set up a 'coffee shop' test where we bought people coffee in exchange for 5 minutes of testing our app. We got great feedback for $50.",2
+Behavioral,Describe a time you were creative.,"I made a nice logo.",1
+Behavioral,Describe a time you were creative.,"I am not creative.",0
+Technical,What is an algorithm?,"An algorithm is a step-by-step procedure for calculations, data processing, and automated reasoning.",2
+Technical,What is an algorithm?,"It is code logic.",1
+Technical,What is an algorithm?,"It is magic.",0
+HR,What are your hobbies?,"I enjoy rock climbing because it requires problem-solving and focus, similar to coding. I also love cooking.",2
+HR,What are your hobbies?,"Video games.",1
+HR,What are your hobbies?,"None.",0
+Technical,What is the DOM?,"The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content.",2
+Technical,What is the DOM?,"It is the HTML.",1
+Technical,What is the DOM?,"It is a person.",0
+Behavioral,Tell me about a time you sacrificed short-term gain for long-term success.,"We could have hard-coded a solution to meet a deadline, but I pushed to build a configurable engine instead. It took 2 extra days then, but has saved us weeks of work for every new client since.",2
+Behavioral,Tell me about a time you sacrificed short-term gain for long-term success.,"I worked late.",1
+Behavioral,Tell me about a time you sacrificed short-term gain for long-term success.,"I don't know.",0
+Technical,What is latency?,"Latency is the time delay between the cause and the effect of some physical change in the system being observed. In networking, it is the time it takes for a packet to travel from source to destination.",2
+Technical,What is latency?,"It is lag.",1
+Technical,What is latency?,"It is being late.",0
+HR,Do you prefer working alone or in a team?,"I enjoy both. I like the collaboration of a team for brainstorming and code reviews, but I also value quiet time to focus deeply on complex implementation tasks.",2
+HR,Do you prefer working alone or in a team?,"Team.",1
+HR,Do you prefer working alone or in a team?,"Alone.",0
+Technical,What is a compiler?,"A compiler is a computer program that translates computer code written in one programming language (the source language) into another language (the target language), often binary machine code.",2
+Technical,What is a compiler?,"It runs the code.",1
+Technical,What is a compiler?,"It is a file.",0
