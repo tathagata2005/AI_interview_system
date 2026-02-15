@@ -3,9 +3,11 @@ from flask import current_app
 
 
 def _extract_response_text(response) -> str:
+    # Prefer direct text field if present.
     text = (getattr(response, "text", "") or "").strip()
     if text:
         return text
+    # Fallback: join candidate parts.
     candidates = getattr(response, "candidates", None) or []
     parts = []
     for candidate in candidates:
@@ -19,6 +21,7 @@ def _extract_response_text(response) -> str:
 
 
 def _parse_question_payload(text: str):
+    # Parse strict expected format first.
     if not text:
         return None, None
 
@@ -30,6 +33,7 @@ def _parse_question_payload(text: str):
         if question and ideal_answer:
             return question, ideal_answer
 
+    # Fallback parser: first line question, rest ideal answer.
     lines = [line.strip() for line in normalized.splitlines() if line.strip()]
     if len(lines) >= 2:
         return lines[0], " ".join(lines[1:])
@@ -37,6 +41,7 @@ def _parse_question_payload(text: str):
 
 
 def _fallback_question_and_answer(domain: str):
+    # Local fallback when API is unavailable.
     fallback = {
         "HR": (
             "How do you handle conflict with a coworker in a professional setting?",
@@ -64,14 +69,17 @@ def _fallback_question_and_answer(domain: str):
 
 
 def generate_question_and_ideal_answer(domain: str):
+    # Read Gemini settings from app config.
     api_key = current_app.config.get("GEMINI_API_KEY", "").strip()
     model = current_app.config.get("GEMINI_MODEL", "gemini-2.5-flash")
 
     if api_key:
         try:
+            # Lazy import so app can run without Gemini package.
             from google import genai
 
             client = genai.Client(api_key=api_key)
+            # Prompt asks for one question + one ideal answer.
             prompt = f"""
 You are an interview coach.
 Generate exactly one {domain} interview question and one strong ideal answer.
@@ -85,19 +93,25 @@ The ideal answer should be concise, professional, and practical.
                 contents=prompt,
                 config={"temperature": 0.7},
             )
+            # Parse model output into (question, ideal_answer).
             text = _extract_response_text(response)
             question, ideal_answer = _parse_question_payload(text)
             if question and ideal_answer:
                 return question, ideal_answer
+            # Log parse issue and fallback.
             current_app.logger.warning("Gemini response parse failed. Raw text: %s", text[:500])
         except Exception as exc:
+            # Log API/runtime error and fallback.
             current_app.logger.exception("Gemini question generation failed: %s", exc)
     else:
+        # No API key configured.
         current_app.logger.warning("GEMINI_API_KEY is empty. Using fallback question.")
 
+    # Always return a valid pair.
     return _fallback_question_and_answer(domain)
 
 
 def generate_question(domain: str) -> str:
+    # Helper used when only question text is needed.
     question, _ = generate_question_and_ideal_answer(domain)
     return question

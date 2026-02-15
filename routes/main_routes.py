@@ -14,21 +14,23 @@ main_bp = Blueprint("main", __name__)
 
 
 def _overall_feedback(avg_score: float) -> str:
-    if avg_score >= 80:
+    avg_percent = avg_score * 10.0
+    if avg_percent >= 80:
         return "Excellent overall performance. Your answers were clear, relevant, and well-structured."
-    if avg_score >= 65:
+    if avg_percent >= 65:
         return "Good overall performance. Add more concrete examples and measurable outcomes."
-    if avg_score >= 50:
+    if avg_percent >= 50:
         return "Average overall performance. Improve depth, structure, and role-specific clarity."
     return "Needs improvement overall. Focus on structure, relevance, and specific examples in each answer."
 
 
 def _performance_label(avg_score: float):
-    if avg_score >= 80:
+    avg_percent = avg_score * 10.0
+    if avg_percent >= 80:
         return "Excellent", "excellent"
-    if avg_score >= 65:
+    if avg_percent >= 65:
         return "Good", "good"
-    if avg_score >= 50:
+    if avg_percent >= 50:
         return "Average", "average"
     return "Needs Improvement", "needs-improvement"
 
@@ -155,12 +157,16 @@ def submit_answer():
                 timer_seconds=timer_seconds,
             )
 
-    score, feedback, strengths, weaknesses = evaluate_answer(
+    evaluation = evaluate_answer(
         answer=answer,
         domain=domain,
         question=question,
         ideal_answer=ideal_answer,
     )
+    score = float(evaluation["score"])
+    feedback = evaluation["feedback"]
+    strengths = evaluation["strengths"]
+    weaknesses = evaluation["weaknesses"]
 
     result = InterviewResult(
         interview_session_id=interview_session_id,
@@ -185,6 +191,10 @@ def submit_answer():
             "ideal_answer": ideal_answer,
             "answer_text": answer,
             "score": score,
+            "correctness_label": evaluation["correctness_label"],
+            "correctness_text": evaluation["correctness_text"],
+            "quality_label": evaluation["quality_label"],
+            "quality_text": evaluation["quality_text"],
             "feedback": feedback,
             "strengths": strengths,
             "weaknesses": weaknesses,
@@ -209,6 +219,7 @@ def submit_answer():
 
     total_score = round(sum(item["score"] for item in answers), 2)
     avg_score = round(total_score / len(answers), 2) if answers else 0.0
+    avg_percent = round(avg_score * 10.0, 2)
     overall_feedback = _overall_feedback(avg_score)
     performance_label, performance_tone = _performance_label(avg_score)
 
@@ -218,6 +229,7 @@ def submit_answer():
         "timer_seconds": timer_seconds,
         "total_score": total_score,
         "average_score": avg_score,
+        "average_percent": avg_percent,
         "overall_feedback": overall_feedback,
         "performance_label": performance_label,
         "performance_tone": performance_tone,

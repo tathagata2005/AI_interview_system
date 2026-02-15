@@ -164,7 +164,7 @@ def evaluate_model(best_pipeline, x_test, y_test):
 def save_artifacts(tfidf, model, metrics, model_meta, out_dir: str):
     os.makedirs(out_dir, exist_ok=True)
     tfidf_path = os.path.join(out_dir, "tfidf.pkl")
-    model_path = os.path.join(out_dir, "model.pkl")
+    model_path = os.path.join(out_dir, "quality_model.pkl")
     metrics_path = os.path.join(out_dir, "metrics.json")
     meta_path = os.path.join(out_dir, "model_meta.json")
 

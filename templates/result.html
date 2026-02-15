@@ -18,7 +18,7 @@
             <p class="complete-note">Evaluation Complete</p>
         </section>
 
-        {% set score = summary.average_score %}
+        {% set score = summary.average_percent %}
         {% if score >= 80 %}
           {% set score_tone = "excellent" %}
         {% elif score >= 65 %}
@@ -32,11 +32,11 @@
         <section class="card summary-grid">
             <div class="score-card {{ score_tone }}">
                 <p class="text-muted">Average Score</p>
-                <p class="score-value">{{ summary.average_score }}</p>
-                <progress class="score-progress {{ score_tone }}" max="100" value="{{ summary.average_score }}"></progress>
+                <p class="score-value">{{ summary.average_score }}/10</p>
+                <progress class="score-progress {{ score_tone }}" max="100" value="{{ summary.average_percent }}"></progress>
             </div>
             <div class="summary-meta">
-                <p><span class="metric-label">Total Score</span> {{ summary.total_score }}</p>
+                <p><span class="metric-label">Total Score</span> {{ summary.total_score }}/{{ summary.total_questions * 10 }}</p>
                 <p><span class="metric-label">Total Questions</span> {{ summary.total_questions }}</p>
                 <p>
                   <span class="metric-label">Performance</span>
@@ -49,11 +49,11 @@
         <section class="stack">
             {% for row in summary.rows %}
               {% set qscore = row.score %}
-              {% if qscore >= 80 %}
+              {% if qscore >= 8 %}
                 {% set q_tone = "excellent" %}
-              {% elif qscore >= 65 %}
+              {% elif qscore >= 6.5 %}
                 {% set q_tone = "good" %}
-              {% elif qscore >= 50 %}
+              {% elif qscore >= 5 %}
                 {% set q_tone = "average" %}
               {% else %}
                 {% set q_tone = "needs-improvement" %}
@@ -62,9 +62,30 @@
                   <div class="question-head">
                     <h3>Question {{ row.question_no }}</h3>
                     <div class="score-chip">
-                        <span class="badge {{ q_tone }}">Score: {{ row.score }}</span>
-                        <progress class="mini-progress {{ q_tone }}" max="100" value="{{ row.score }}"></progress>
+                        <span class="badge {{ q_tone }}">Score: {{ row.score }}/10</span>
+                        <progress class="mini-progress {{ q_tone }}" max="100" value="{{ row.score * 10 }}"></progress>
                     </div>
+                  </div>
+                  <div class="detail-row">
+                      <span class="detail-label">Correctness</span>
+                      <span class="detail-value">
+                          <span class="badge {{ 'excellent' if row.correctness_label == 1 else 'needs-improvement' }}">
+                              {{ row.correctness_text }}
+                          </span>
+                      </span>
+                  </div>
+                  <div class="detail-row">
+                      <span class="detail-label">Writing Quality</span>
+                      <span class="detail-value">
+                          {% if row.quality_label >= 2 %}
+                            {% set quality_tone = "excellent" %}
+                          {% elif row.quality_label == 1 %}
+                            {% set quality_tone = "average" %}
+                          {% else %}
+                            {% set quality_tone = "needs-improvement" %}
+                          {% endif %}
+                          <span class="badge {{ quality_tone }}">{{ row.quality_text }}</span>
+                      </span>
                   </div>
                   <div class="detail-row">
                       <span class="detail-label">Question</span>

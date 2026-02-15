@@ -55,7 +55,7 @@ GEMINI_MODEL=gemini-2.5-flash
 SECRET_KEY=change-this
 DATABASE_URL=sqlite:///interview.db
 TFIDF_PATH=artifacts/tfidf.pkl
-MODEL_PATH=artifacts/model.pkl
+MODEL_PATH=artifacts/quality_model.pkl
 MAX_CONTENT_LENGTH=16777216
 ```
 
@@ -72,7 +72,7 @@ python -m ml.train_model --data "qnagrading_dataset.csv" --out-dir artifacts
 
 Generated artifacts:
 - `artifacts/tfidf.pkl`
-- `artifacts/model.pkl`
+- `artifacts/quality_model.pkl`
 - `artifacts/metrics.json`
 - `artifacts/model_meta.json`
 
