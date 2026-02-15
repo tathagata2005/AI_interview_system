@@ -139,11 +139,13 @@ def _weaknesses_for(correctness: int, quality_label: int) -> str:
     return "Needs better clarity and structure."
 
 
+
+# MAIN EVALUATION FUNCTION
 def evaluate_answer(answer: str, domain: str = "", question: str = "", ideal_answer: str = ""):
     # Read model/vectorizer paths from config.
-    similarity_model_path = current_app.config["SIMILARITY_MODEL_PATH"]
+    similarity_model_path = current_app.config["SIMILARITY_MODEL_PATH"]         #MODEL 1
     similarity_tfidf_path = current_app.config["SIMILARITY_TFIDF_PATH"]
-    quality_model_path = current_app.config["QUALITY_MODEL_PATH"]
+    quality_model_path = current_app.config["QUALITY_MODEL_PATH"]               #MODEL 2
     quality_tfidf_path = current_app.config["QUALITY_TFIDF_PATH"]
 
     # Default fallback values if inference fails.
