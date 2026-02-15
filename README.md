@@ -2,6 +2,10 @@
 # AI Interview System
 
 AI-assisted interview practice platform built with Flask, SQLite, Gemini question generation, browser mic input, and TF-IDF + classifier-based scoring.
+## screenshots
+<img width="1552" height="750" alt="image" src="https://github.com/user-attachments/assets/e61d04a2-db61-4cea-80cf-32499af623f4" />
+<img width="1310" height="1077" alt="image" src="https://github.com/user-attachments/assets/c8964358-da96-465d-b560-7cc5ef43b738" />
+
 
 ## Current Features
 - Domain selection: `HR`, `Technical`, `Behavioral`
@@ -92,7 +96,7 @@ Open: `http://127.0.0.1:5000`
 
 ## Scoring (Current)
 - Uses trained TF-IDF + classifier output as primary scoring logic.
-- Produces score in range `0–100`.
+- Produces score in range `0â€“100`.
 - Maps score bands to feedback/strengths/weaknesses.
 
 ## Known Constraints
