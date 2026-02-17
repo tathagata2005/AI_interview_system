@@ -165,4 +165,4 @@ Open: `http://127.0.0.1:5000`
 - Gemini usage depends on API quota/rate limits.
 - Browser mic dictation quality varies by browser, mic, and noise.
 
-by aditya angshul 
+by aditya angshul tathagata
