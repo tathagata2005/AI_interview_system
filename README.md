@@ -164,3 +164,5 @@ Open: `http://127.0.0.1:5000`
 - Quality depends on training dataset quality and label design.
 - Gemini usage depends on API quota/rate limits.
 - Browser mic dictation quality varies by browser, mic, and noise.
+
+by aditya angshul 
